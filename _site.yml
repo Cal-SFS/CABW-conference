@@ -5,7 +5,9 @@ output:
     theme: cosmo
     highlight: textmate
     css: extra.css
-    includes:
+    lib_dir: site_libs
+    self_contained: no
+    include:
         after_body: footer.html
 
 navbar:
