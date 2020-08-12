@@ -1,0 +1,68 @@
+body {font-size: 15px; line-height: 1.6;}
+h1 {font-size: 40px;}
+h2 {font-size: 30px;}
+h3 {font-size: 23px;}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 64px;
+}
+
+.navbar {
+  border-bottom: 0;
+}
+
+.navbar-header {
+  margin-top: 12px;
+}
+
+.navbar-inverse {
+ background-color:#002855;
+ border-color:#ffe8aa
+}
+
+.navbar-inverse .navbar-text {
+ color:#ffffff
+}
+
+.navbar-inverse .navbar-nav>li>a {
+ color:#ffffff;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:active {
+ color:#ffffff;
+ background-color:#002855;
+}
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+ color:#ffffff;
+ background-color:#002855;
+}
+
+.navbar-inverse .navbar-link {
+ color:#ffffff
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+ background-color:#002855;
+ color:#ffffff
+}
+
+body {
+    font-size: 15px;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+pre {
+    font-size: 15px;
+}
+

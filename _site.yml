@@ -1,75 +1,46 @@
-destination: docs
-
-template:
-  params:
-    bootswatch: simplex
-
-home:
-  strip_header: true
-  links:
-  - text: See the Agenda
-    href: https://rmarkdown.rstudio.com/
-  - text: Go to Slack Channel
-    href: https://slack.com
+name: "CABW-SFS"
+output_dir: _site
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    css: extra.css
+    includes:
+        after_body: footer.html
 
 navbar:
-  title: "CABW & Cal-SFS Posters"
   type: inverse
-  structure:
-    left:
-    - intro
-    - media
-    right:
-    - reference
-    - news
-    - github
-    - community
-    - home
-  components:
-    intro: 
-      text: Introductions
-      href: introductions.html
-    media:
-      text: Posters
-      menu:
-        - text: "Session 1"
-        - text: "Poster A"
-          href: Poster_A.html
-        - text: "How It Works"
-          href: https://rmarkdown.rstudio.com/lesson-2.html
-        - text: "---"
-        - text: "Session 2"
-        - text: "Poster B"
-          href: https://rmarkdown.rstudio.com/lesson-3.html
-        - text: "---"
-        - text: Session 3
-        - text: "Tables"
-          href: https://rmarkdown.rstudio.com/lesson-7.html
-      text: Quick Talks
-      menu:
-       - text: "Session 1"
-       - text: "Poster A"
-         href: Poster_A.html
-    reference:
-      text: Reference
-      href: reference.html
-    news:
-      text: News
-      menu:
-        - text: "Learn R Markdown"
-          href: articles/rmarkdown.html
-        - text: "Install Pandoc"
-          href: articles/pandoc.html
-    github:
-      icon: fab fa-github fa-lg
-      href: https://github.com/Cal-SFS/2020-CABW-SFS
-    community:
-      icon: fab fa-discourse fa-lg
-      href: https://slack.com
-    home:
-      icon: fas fa-home fa-lg
-      href: index.html
-
-authors:
-  "Ryan Peek":
-    href: https://ryanpeek.org
+  left:
+  - text: 
+    icon: fa-home fa-2x
+    href: index.html
+  - text: Introductions
+    href: introductions.html
+  - text: Posters
+    menu:
+    - text: "Session 1"
+    - text: "Poster A"
+      href: poster_A.html
+    - text: "---"
+    - text: "Session 2"
+    - text: "Poster B"
+      href: poster_B.html
+  - text: Quick Talks
+    menu:
+    - text: "Session 1"
+    - text: "Talk A"
+      href: talk_A.html
+  right:
+  - text: "Reference"
+    href: reference.html
+  - text: News
+    menu:
+    - text: "Learn R Markdown"
+      href: articles/rmarkdown.html
+    - text: "Install Pandoc"
+      href: articles/pandoc.html
+  - icon: fab fa-github fa-lg
+    href: https://github.com/Cal-SFS/2020-CABW-SFS
+  - icon: fab fa-gear fa-lg
+    href: https://slack.com
+ 

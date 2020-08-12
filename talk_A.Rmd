@@ -1,0 +1,17 @@
+---
+title: "Talk A"
+output: html_document
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(knitr)
+
+```
+
+## [Middle School Girls' Math and Science Day at MSU](https://www.youtube.com/watch?v=e3sR8EOnPac)
+
+<iframe width="800" height="600" src="https://www.youtube.com/embed/e3sR8EOnPac" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+

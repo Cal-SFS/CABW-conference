@@ -1,0 +1,21 @@
+---
+title: "Peek"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(knitr)
+
+```
+
+## [Using sensitive montane species as indicators of hydroclimatic change in meadow ecosystems of the Sierra Nevada, California](posters/Peek_AGU_2012_poster_optimized.pdf)
+
+```{r posterA, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
+
+include_graphics(paste0(here::here(), "/posters/Peek_AGU_2012_poster_optimized.pdf"))
+
+```
+
+
+

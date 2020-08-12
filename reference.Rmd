@@ -1,0 +1,15 @@
+---
+title: "Reference"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## How-To or FAQ Page
+
+This is the "how-to" page
+
+ - [Slack Tutorials](https://slack.com/resources/using-slack/slack-tutorials)
+ 
