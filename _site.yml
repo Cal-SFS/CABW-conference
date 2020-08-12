@@ -1,5 +1,5 @@
 name: "CABW-SFS"
-output_dir: _site
+output_dir: docs
 output:
   html_document:
     theme: cosmo
