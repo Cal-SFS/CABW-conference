@@ -32,7 +32,7 @@ include_graphics(paste0(here::here(), "/posters/DePalma-Dow_Angela_TurningUpTheH
 
 ```{r posterAB, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics(paste0(here::here(), "/posters/Peek_AGU_2012_poster_optimized.pdf"))
+include_graphics("posters/Peek_AGU_2012_poster_optimized.pdf")
 
 ```
 
