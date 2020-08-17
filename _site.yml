@@ -1,8 +1,9 @@
 name: "CABW-SFS"
 output_dir: docs
 output:
-  html_document:
+  bookdown::html_document2:
     theme: cosmo
+    number_sections: false
     highlight: textmate
     css: styles.css
     lib_dir: site_libs
@@ -22,11 +23,11 @@ navbar:
     menu:
     - text: "Session 1"
     - text: "Tuesday Posters"
-      href: poster_A.html
+      href: poster_session_A.html
     - text: "---------"
     - text: "Session 2"
     - text: "Wednesday Posters"
-      href: poster_B.html
+      href: poster_session_B.html
   - text: "Quick Talks"
     icon: fa-flash
     menu:

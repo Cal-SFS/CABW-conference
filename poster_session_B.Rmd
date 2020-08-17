@@ -1,6 +1,9 @@
 ---
-title: "Peek"
-output: html_document
+title: "Session B"
+output: 
+  bookdown::html_document2:
+    includes:
+      after_body: assets/foot.html
 ---
 
 ```{r setup, include=FALSE}

@@ -1,11 +1,26 @@
 ---
-title: "FAQ"
-output: html_document
+title: 
+output:
+  bookdown::html_document2:
+    includes:
+      in_header: assets/faq.html
+      after_body: assets/foot.html
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+:::obj
+
+  **Overview of various resources for helping folks**
+  
+  1. What is #slack?
+  1. What is CABW/Cal-SFS?
+  1. What is R?
+
+:::
+
 
 ## Frequently Asked Questions
 

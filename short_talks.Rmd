@@ -1,7 +1,9 @@
 ---
 title: "Short Talks"
-output: html_document
-
+output: 
+  bookdown::html_document2:
+    includes:
+      after_body: assets/foot.html
 ---
 
 ```{r setup, include=FALSE}

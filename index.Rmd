@@ -1,6 +1,7 @@
 ---
-title: "Welcome to CABW-Cal SFS 2020!"
-output: html_document
+title: "Welcome to [CABW](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/)-[Cal SFS](https://freshwater-science.org/my-sfs/chapters/california) 2020!"
+output:
+  bookdown::html_document2
 ---
 
 ```{r setup, include=FALSE}
@@ -10,13 +11,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Conference Info
 
-We will provide more information about the virtual conference as things come
+We will provide more information about the virtual conference as things come. Thanks for checking in!
 
-for outline of yml, see [here](https://github.com/rstudio/rmarkdown/blob/master/pkgdown/_pkgdown.yml)
-
+<!---
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
+--->
+
 <div class = "blue">
 **This page should include**:  
 
