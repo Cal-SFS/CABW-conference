@@ -15,7 +15,7 @@ navbar:
   type: inverse
   left:
   - text: 
-    icon: fa-home fa-1.5x
+    icon: fa-home fa-2x
     href: index.html
   - text: "Posters"
     icon: fa-area-chart fa-1x
