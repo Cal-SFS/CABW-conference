@@ -41,11 +41,11 @@ navbar:
     - text: 
     - icon: fa-newspaper-o
     - text: 2016 Newsletter
-      href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/cabw_sfs%20newsletter_final.pdf"
+      href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/cabw_sfs%20newsletter_final.pdf
     - text: 2017 Newsletter
-      href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/2017_cabw_sfs_final_newsletter.pdf"
+      href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/2017_cabw_sfs_final_newsletter.pdf
     - text: 2018 Newsletter
-      href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/winter18_19_cabw_calsfs_newsletter.pdf"
+      href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/winter18_19_cabw_calsfs_newsletter.pdf
   - icon: fa-github fa-lg
     href: https://github.com/Cal-SFS/2020-CABW-SFS
   - icon: fa-twitter fa-lg
