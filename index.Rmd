@@ -7,6 +7,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
 ## Conference Info
 
 We will provide more information about the virtual conference as things come
@@ -30,3 +31,10 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 ### **This website is still under construction! Thanks for your patience.**
 
 ![Shasta Dam Under Construction, 1942 (Wikipedia)](https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg)
+
+
+<br>
+
+---
+
+*site updated: ```r format(Sys.time(), "%Y-%m-%d %H:%M")```*

@@ -1,0 +1,26 @@
+body {font-size: 15px; line-height: 1.6;}
+h1 {font-size: 40px;}
+h2 {font-size: 30px;}
+h3 {font-size: 23px;}
+
+
+.navbar-inverse {
+ background-color:#002855;
+ border-color:#ffe8aa
+}
+
+.navbar-inverse .navbar-text {
+ color:#ffffff
+}
+
+body {
+    font-size: 15px;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+pre {
+    font-size: 15px;
+}

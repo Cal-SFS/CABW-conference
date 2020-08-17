@@ -4,42 +4,47 @@ output:
   html_document:
     theme: cosmo
     highlight: textmate
-    css: extra.css
+    css: styles.css
     lib_dir: site_libs
     self_contained: no
     include:
+        in_header: header.html
         after_body: footer.html
 
 navbar:
   type: inverse
   left:
   - text: 
-    icon: fa-home fa-2x
+    icon: fa-home fa-1.5x
     href: index.html
-  - text: Posters
+  - text: "Posters"
+    icon: fa-area-chart fa-1x
     menu:
-    - text: Session 1
-    - text: Poster A
+    - text: "Session 1"
+    - text: "Tuesday Posters"
       href: poster_A.html
-    - text: ---
-    - text: Session 2
-    - text: Poster B
+    - text: "---------"
+    - text: "Session 2"
+    - text: "Wednesday Posters"
       href: poster_B.html
-  - text: Quick Talks
+  - text: "Quick Talks"
+    icon: fa-flash
     menu:
     - text: Session 1
-    - text: Short Talks
+      icon: fa-video-camera
       href: short_talks.html
   right:
   - text: FAQ
+    icon: fa-question
     href: reference.html
   - text: News
+    icon: fa-newspaper-o
     menu:
     - text: Previous Conferences
       href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/cabw.html
     - text: ---
     - text: 
-    - icon: fa-newspaper-o
+     
     - text: 2016 Newsletter
       href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/cabw_sfs%20newsletter_final.pdf
     - text: 2017 Newsletter
