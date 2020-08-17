@@ -16,33 +16,38 @@ navbar:
   - text: 
     icon: fa-home fa-2x
     href: index.html
-  - text: Introductions
-    href: introductions.html
   - text: Posters
     menu:
-    - text: "Session 1"
-    - text: "Poster A"
+    - text: Session 1
+    - text: Poster A
       href: poster_A.html
-    - text: "---"
-    - text: "Session 2"
-    - text: "Poster B"
+    - text: ---
+    - text: Session 2
+    - text: Poster B
       href: poster_B.html
   - text: Quick Talks
     menu:
-    - text: "Session 1"
-    - text: "Talk A"
-      href: talk_A.html
+    - text: Session 1
+    - text: Short Talks
+      href: short_talks.html
   right:
-  - text: "Reference"
+  - text: FAQ
     href: reference.html
   - text: News
     menu:
-    - text: "Learn R Markdown"
-      href: articles/rmarkdown.html
-    - text: "Install Pandoc"
-      href: articles/pandoc.html
-  - icon: fab fa-github fa-lg
+    - text: Previous Conferences
+      href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/cabw.html
+    - text: ---
+    - text: 
+    - icon: fa-newspaper-o
+    - text: 2016 Newsletter
+      href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/cabw_sfs%20newsletter_final.pdf"
+    - text: 2017 Newsletter
+      href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/2017_cabw_sfs_final_newsletter.pdf"
+    - text: 2018 Newsletter
+      href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/winter18_19_cabw_calsfs_newsletter.pdf"
+  - icon: fa-github fa-lg
     href: https://github.com/Cal-SFS/2020-CABW-SFS
-  - icon: fab fa-gear fa-lg
-    href: https://slack.com
+  - icon: fa-twitter fa-lg
+    href: https://twitter.com/CalSFSsocial
  

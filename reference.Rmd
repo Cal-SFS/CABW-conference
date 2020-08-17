@@ -1,5 +1,5 @@
 ---
-title: "Reference"
+title: "FAQ"
 output: html_document
 ---
 
@@ -7,9 +7,16 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## How-To or FAQ Page
+## Frequently Asked Questions
 
-This is the "how-to" page
+How to use slack?
 
  - [Slack Tutorials](https://slack.com/resources/using-slack/slack-tutorials)
+
+What is CABW? 
+
+ - [Aquatic Bioassessment Workgroup](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/training.html#CABW)
  
+What is R?
+
+ - [RStudio Education learning resources](https://education.rstudio.com/learn/)
