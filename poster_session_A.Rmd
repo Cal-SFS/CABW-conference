@@ -23,7 +23,9 @@ library(knitr)
 
  - **Author**, *Affiliation*
  
- > One sentence summary of poster results, objective, or message.
+ [optional photo of author](jpg here)
+ 
+ > Brief bio of author or one sentence summary of poster results, objective, or message.
 
 ```{r posterA, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
