@@ -16,24 +16,14 @@ navbar:
   type: inverse
   left:
   - text: 
-    icon: fa-home fa-2x
+    icon: fa-home fa-1.5x
     href: index.html
   - text: "Posters"
     icon: fa-area-chart fa-1x
-    menu:
-    - text: "Session 1"
-    - text: "Tuesday Posters"
-      href: poster_session_A.html
-    - text: "---------"
-    - text: "Session 2"
-    - text: "Wednesday Posters"
-      href: poster_session_B.html
+    href: poster_session.html
   - text: "Quick Talks"
     icon: fa-flash
-    menu:
-    - text: Session 1
-      icon: fa-video-camera
-      href: short_talks.html
+    href: short_talks.html
   right:
   - text: FAQ
     icon: fa-question

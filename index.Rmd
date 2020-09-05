@@ -1,5 +1,5 @@
 ---
-title: "Welcome to [CABW](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/)-[Cal SFS](https://freshwater-science.org/my-sfs/chapters/california) 2020!"
+title: "[CABW](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/)-[Cal SFS](https://freshwater-science.org/my-sfs/chapters/california) 2020"
 output:
   bookdown::html_document2
 ---
@@ -8,11 +8,13 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+<br>
 
-## Conference Info
+## Welcome to 27th Annual (Virtual) California Aquatic Bioassessment Workgroup!
 
-We will provide more information about the virtual conference as things come. Thanks for checking in!
+This site will contain posters and short talks for the conference. We will provide more information about the virtual conference as things come. Please keep checking back for more info!
 
+<br>
 <!---
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
@@ -20,17 +22,17 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 --->
 
 <div class = "blue">
-**This page should include**:  
+**Important Info**:  
 
- - an introduction to the conference, 
- - link to code of conduct & agenda
- - Separate pages can be added in addition to the homepage.
+ - See the [Meeting Agenda]() for more details.
+ - While this conference is virtual, we ask that all participants follow the [SFS Code of Conduct](https://freshwater-science.org/about/society-governance/code-of-conduct). For concerns or issues please contact: <a href="mailto:Shuka.Rastegarpour@waterboards.ca.gov">Shuka Rastegarpour</a>
+
 </div>
 
 <br>
 <br>
 
-### **This website is still under construction! Thanks for your patience.**
+**This website is still under construction! Thanks for your patience.**
 
 ![Shasta Dam Under Construction, 1942 (Wikipedia)](https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg)
 
