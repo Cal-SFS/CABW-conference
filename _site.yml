@@ -15,9 +15,12 @@ output:
 navbar:
   type: inverse
   left:
-  - text: 
-    icon: fa-home fa-1.5x
+  - text: "CABW 2020"
+    icon: fa-home
     href: index.html
+  - text: "Agenda"
+    icon: fa-list-alt
+    href: agenda.html
   - text: "Posters"
     icon: fa-area-chart fa-1x
     href: poster_session.html
@@ -25,7 +28,7 @@ navbar:
     icon: fa-flash
     href: short_talks.html
   right:
-  - text: FAQ
+  - text: Slack FAQ
     icon: fa-question
     href: reference.html
   - text: News

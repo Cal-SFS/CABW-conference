@@ -1,10 +1,11 @@
 ---
-title: 
+title: "Slack FAQ"
 output:
   bookdown::html_document2:
     toc: true
     toc_float:
-        collapsed: true
+      collapsed: false
+    number_sections: no
     includes:
       in_header: assets/faq.html
       after_body: assets/foot.html
@@ -14,15 +15,13 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-:::obj
 
-  **Slack Guide**
+<style>
+  .title{
+    display: none;
+  }
+</style>
 
- - What is Slack
- - Why we are using it
- - How to Join!
-
-:::
 
 <br>
 
