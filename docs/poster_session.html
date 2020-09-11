@@ -20,6 +20,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -252,6 +255,75 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+
 
 </head>
 
@@ -259,6 +331,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -277,8 +359,16 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fa fa-home fa-1.5x"></span>
+    <span class="fa fa-home"></span>
      
+    CABW 2020
+  </a>
+</li>
+<li>
+  <a href="agenda.html">
+    <span class="fa fa-list-alt"></span>
+     
+    Agenda
   </a>
 </li>
 <li>
@@ -301,7 +391,7 @@ $(document).ready(function () {
   <a href="reference.html">
     <span class="fa fa-question"></span>
      
-    FAQ
+    Slack FAQ
   </a>
 </li>
 <li class="dropdown">
@@ -357,39 +447,115 @@ $(document).ready(function () {
 </div>
 
 
+<style>
+  .title{
+    display: none;
+  }
+</style>
 <p><br></p>
 <div class="blue">
-<p>All posters submitted for the 2020 CABW Meeting are found below. If you are interested in discussing a poster with the author(s), please see the <a href="index.html">Agenda</a> to find the correct time, and then follow the Slack links below each poster! We have a <a href="reference.html">Slack FAQ</a></p>
+<p>All posters submitted for the 2020 CABW Meeting are found below.</p>
+<p>We will be using the <a href="reference.html">Slack</a> platform to gather questions for the virtual poster presenters and lightning talk presenters. Questions can be submitted all day and long after the meeting is over. The time on the <a href="index.html">Agenda</a> is reserved for a live Q&amp;A session with the virtual poster presenters and lightning talk presenters, where you can converse and get live feedback and responses immediately from the presenters.</p>
+<p>If you are interested in participating in the Q&amp;A, please view the <a href="reference.html">Slack FAQ Guide</a> for instructions on how to sign up and join (it is free!).</p>
 </div>
 <p><br></p>
-<div class = "row">
-
-<div id="turning-up-the-heat" class="section level2">
-<h2><a href="posters/DePalma-Dow_Angela_TurningUpTheHeatPoster_July2020.pdf">Turning Up The Heat</a></h2>
-<p><br></p>
+<div id="poster-1" class="section level2 row">
+<h2><strong>POSTER 1</strong></h2>
 <ul>
 <li><strong>Author</strong>, <em>Affiliation</em></li>
 </ul>
-<p><a href="jpg%20here">optional photo of author</a></p>
 <blockquote>
 <p>Brief bio of author or one sentence summary of poster results, objective, or message.</p>
 </blockquote>
-<embed src="posters/DePalma-Dow_Angela_TurningUpTheHeatPoster_July2020.pdf" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" type="application/pdf" />
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" /></p>
 </div>
 <p><br><br></p>
-<div class = "row">
-
-</div>
-<div id="using-sensitive-montane-species-as-indicators-of-hydroclimatic-change-in-meadow-ecosystems-of-the-sierra-nevada-california" class="section level2">
-<h2><a href="posters/Peek_AGU_2012_poster_optimized.pdf">Using sensitive montane species as indicators of hydroclimatic change in meadow ecosystems of the Sierra Nevada, California</a></h2>
+<div id="poster-2" class="section level2">
+<h2><strong>POSTER 2</strong></h2>
 <ul>
 <li><strong>Author</strong>, <em>Affiliation</em></li>
 </ul>
 <blockquote>
 <p>One sentence summary of poster results, objective, or message.</p>
 </blockquote>
-<embed src="posters/Peek_AGU_2012_poster_optimized.pdf" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" type="application/pdf" />
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" /></p>
+<p><br><br></p>
 </div>
+<div id="poster-3" class="section level2">
+<h2><strong>POSTER 3</strong></h2>
+<ul>
+<li><strong>Author</strong>, <em>Affiliation</em></li>
+</ul>
+<blockquote>
+<p>One sentence summary of poster results, objective, or message.</p>
+</blockquote>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" /></p>
+<p><br><br></p>
+</div>
+<div id="poster-4" class="section level2">
+<h2><strong>POSTER 4</strong></h2>
+<ul>
+<li><strong>Author</strong>, <em>Affiliation</em></li>
+</ul>
+<blockquote>
+<p>One sentence summary of poster results, objective, or message.</p>
+</blockquote>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" /></p>
+<p><br><br></p>
+</div>
+<div id="poster-5" class="section level2">
+<h2><strong>POSTER 5</strong></h2>
+<ul>
+<li><strong>Author</strong>, <em>Affiliation</em></li>
+</ul>
+<blockquote>
+<p>One sentence summary of poster results, objective, or message.</p>
+</blockquote>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" /></p>
+<p><br><br></p>
+</div>
+<div id="poster-6" class="section level2">
+<h2><strong>POSTER 6</strong></h2>
+<ul>
+<li><strong>Author</strong>, <em>Affiliation</em></li>
+</ul>
+<blockquote>
+<p>One sentence summary of poster results, objective, or message.</p>
+</blockquote>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" /></p>
+<p><br><br></p>
+</div>
+<div id="poster-7" class="section level2">
+<h2><strong>POSTER 7</strong></h2>
+<ul>
+<li><strong>Author</strong>, <em>Affiliation</em></li>
+</ul>
+<blockquote>
+<p>One sentence summary of poster results, objective, or message.</p>
+</blockquote>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" /></p>
+<p><br><br></p>
+</div>
+<div id="poster-8" class="section level2">
+<h2><strong>POSTER 8</strong></h2>
+<ul>
+<li><strong>Author</strong>, <em>Affiliation</em></li>
+</ul>
+<blockquote>
+<p>One sentence summary of poster results, objective, or message.</p>
+</blockquote>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" /></p>
+<p><br><br></p>
+</div>
+<div id="poster-9" class="section level2">
+<h2><strong>POSTER 9</strong></h2>
+<ul>
+<li><strong>Author</strong>, <em>Affiliation</em></li>
+</ul>
+<blockquote>
+<p>One sentence summary of poster results, objective, or message.</p>
+</blockquote>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" /></p>
 </div>
 
 <!DOCTYPE html>
@@ -403,6 +569,8 @@ $(document).ready(function () {
 </div>
 
 
+</div>
+</div>
 
 </div>
 
@@ -435,6 +603,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

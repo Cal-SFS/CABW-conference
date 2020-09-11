@@ -11,7 +11,7 @@
 
 
 
-<title>reference.utf8</title>
+<title>Slack FAQ</title>
 
 <script src="site_libs/header-attrs-2.3/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
@@ -331,6 +331,12 @@ div.tocify {
   border-radius: 0px;
 }
 
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
 
 </style>
 
@@ -370,8 +376,16 @@ div.tocify {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fa fa-home fa-1.5x"></span>
+    <span class="fa fa-home"></span>
      
+    CABW 2020
+  </a>
+</li>
+<li>
+  <a href="agenda.html">
+    <span class="fa fa-list-alt"></span>
+     
+    Agenda
   </a>
 </li>
 <li>
@@ -394,7 +408,7 @@ div.tocify {
   <a href="reference.html">
     <span class="fa fa-question"></span>
      
-    FAQ
+    Slack FAQ
   </a>
 </li>
 <li class="dropdown">
@@ -445,18 +459,16 @@ div.tocify {
 
 
 
+<h1 class="title toc-ignore">Slack FAQ</h1>
 
 </div>
 
 
-<div class="obj">
-<p><strong>Slack Guide</strong></p>
-<ul>
-<li>What is Slack</li>
-<li>Why we are using it</li>
-<li>How to Join!</li>
-</ul>
-</div>
+<style>
+  .title{
+    display: none;
+  }
+</style>
 <p><br></p>
 <div class="section level2">
 <h2><i class="fab  fa-slack "></i> What is Slack?</h2>
@@ -584,7 +596,7 @@ $(document).ready(function ()  {
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
     };
-    options.showAndHide = true;
+    options.showAndHide = false;
     options.smoothScroll = true;
 
     // tocify
