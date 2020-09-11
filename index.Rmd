@@ -1,25 +1,29 @@
 ---
-title: "[CABW](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/)-[Cal SFS](https://freshwater-science.org/my-sfs/chapters/california) 2020"
-output:
-  bookdown::html_document2
+title: "CABW-Cal SFS 2020"
+output: 
+  bookdown::html_document2:
+    includes:
+      after_body: assets/foot.html
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+<style>
+  .title{
+    display: none;
+  }
+</style>
 
 <br>
+
+# [CABW](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/)-[Cal SFS](https://freshwater-science.org/my-sfs/chapters/california) 2020
+
+<br> 
 
 ## Welcome to 27th Annual (Virtual) California Aquatic Bioassessment Workgroup!
 
-This site will contain posters and short talks for the conference. We will provide more information about the virtual conference as things come. Please keep checking back for more info!
-
 <br>
-<!---
-<style>
-div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
-</style>
---->
 
 <div class = "blue">
 **Important Info**:  
@@ -30,6 +34,12 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </div>
 
 <br>
+
+We will be using the [Slack](reference.html) platform to gather questions for the virtual poster presenters and lightning talk presenters. Questions can be submitted all day and long after the meeting is over. The time on the [Agenda](index.html) is reserved for a live Q&A session with the virtual poster presenters and lightning talk presenters, where you can converse and get live feedback and responses immediately from the presenters.
+
+If you are interested in participating in the Q&A, please view the [Slack FAQ Guide](reference.html) for instructions on how to sign up and join (it is free!).
+
+
 <br>
 
 **This website is still under construction! Thanks for your patience.**
