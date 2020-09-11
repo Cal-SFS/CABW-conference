@@ -9,8 +9,8 @@ output:
     lib_dir: site_libs
     self_contained: no
     include:
-        in_header: header.html
-        after_body: footer.html
+        in_header: assets/header.html
+        after_body: assets/foot.html
 
 navbar:
   type: inverse
