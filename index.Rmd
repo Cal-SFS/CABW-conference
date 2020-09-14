@@ -8,6 +8,7 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(knitr)
 ```
 <style>
   .title{
@@ -19,9 +20,17 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # [CABW](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/)-[Cal SFS](https://freshwater-science.org/my-sfs/chapters/california) 2020
 
+
+```{r logo, echo=FALSE, out.width="30%", out.height="15%", dpi=300, fig.show='hold',fig.align='default'}
+
+include_graphics(c("images/waterboards_logo_high_res.jpg","images/sfs_logo.jpg", "images/swamp_fish_logo.gif"))
+
+```
+
+
 <br> 
 
-## Welcome to 27th Annual (Virtual) California Aquatic Bioassessment Workgroup!
+## **Welcome to 27th Annual (Virtual) California Aquatic Bioassessment Workgroup!**
 
 <br>
 
@@ -41,11 +50,6 @@ If you are interested in participating in the Q&A, please view the [Slack FAQ Gu
 
 
 <br>
-
-**This website is still under construction! Thanks for your patience.**
-
-![Shasta Dam Under Construction, 1942 (Wikipedia)](https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg)
-
 
 <br>
 
