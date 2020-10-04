@@ -13,6 +13,9 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 library(knitr)
 
+load("assets/poster_info.rda")
+df <- poster_tidy
+
 ```
 
 <style>
@@ -34,13 +37,18 @@ If you are interested in participating in the Q&A, please view the [Slack FAQ Gu
 </div>
 <br>
 
-<div class = "row">
-  
-## **POSTER 1**
+# Posters
 
- - **Author**, *Affiliation*
- 
- > Brief bio of author or one sentence summary of poster results, objective, or message.
+<br><br>
+
+<div class = "row">
+
+## **01. `r glue::glue("{df$author[1]}")`**
+
+ - **Authors: `r glue::glue("{df$author[1]}, {df$co_authors[1]}")`**
+ - *Affiliation: `r glue::glue("{df$affiliation[1]}")`*
+
+`r glue::glue("{df$abstract[1]}")`
 
 ```{r poster1, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
@@ -52,11 +60,12 @@ include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam
 
 <br><br>
 
-## **POSTER 2**
+## **02. `r glue::glue("{df$author[2]}")`**
 
- - **Author**, *Affiliation*
- 
- > One sentence summary of poster results, objective, or message.
+ - **Authors: `r glue::glue("{df$author[2]}, {df$co_authors[2]}")`**
+ - *Affiliation: `r glue::glue("{df$affiliation[2]}")`*
+
+`r glue::glue("{df$abstract[2]}")`
 
 ```{r poster2, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
@@ -66,11 +75,13 @@ include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam
 
 <br><br>
 
-## **POSTER 3**
+## **03. `r glue::glue("{df$author[3]}")`**
 
- - **Author**, *Affiliation*
- 
- > One sentence summary of poster results, objective, or message.
+ - **Authors: `r glue::glue("{df$author[3]}, {df$co_authors[3]}")`**
+ - *Affiliation: `r glue::glue("{df$affiliation[3]}")`*
+
+`r glue::glue("{df$abstract[3]}")`
+
 
 ```{r poster3, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
@@ -80,11 +91,12 @@ include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam
 
 <br><br>
 
-## **POSTER 4**
+## **04. `r glue::glue("{df$author[4]}")`**
 
- - **Author**, *Affiliation*
- 
- > One sentence summary of poster results, objective, or message.
+ - **Authors: `r glue::glue("{df$author[4]}, {df$co_authors[4]}")`**
+ - *Affiliation: `r glue::glue("{df$affiliation[4]}")`*
+
+`r glue::glue("{df$abstract[4]}")`
 
 ```{r poster4, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
@@ -94,11 +106,13 @@ include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam
 
 <br><br>
 
-## **POSTER 5**
+## **05. `r glue::glue("{df$author[5]}")`**
 
- - **Author**, *Affiliation*
- 
- > One sentence summary of poster results, objective, or message.
+ - **Authors: `r glue::glue("{df$author[5]}, {df$co_authors[5]}")`**
+ - *Affiliation: `r glue::glue("{df$affiliation[5]}")`*
+
+`r glue::glue("{df$abstract[5]}")`
+
 
 ```{r poster5, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
@@ -108,25 +122,29 @@ include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam
 
 <br><br>
 
-## **POSTER 6**
+## **06. `r glue::glue("{df$author[6]}")`**
 
- - **Author**, *Affiliation*
- 
- > One sentence summary of poster results, objective, or message.
+ - **Authors: `r glue::glue("{df$author[6]}, {df$co_authors[6]}")`**
+ - *Affiliation: `r glue::glue("{df$affiliation[6]}")`*
+
+`r glue::glue("{df$abstract[6]}")`
+
 
 ```{r poster6, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg")
+include_graphics("posters/Chen Buck-Diaz Tortosa Kneitel.pdf")
 
 ```
 
 <br><br>
 
-## **POSTER 7**
+## **07. `r glue::glue("{df$author[7]}")`**
 
- - **Author**, *Affiliation*
- 
- > One sentence summary of poster results, objective, or message.
+ - **Authors: `r glue::glue("{df$author[7]}, {df$co_authors[7]}")`**
+ - *Affiliation: `r glue::glue("{df$affiliation[7]}")`*
+
+`r glue::glue("{df$abstract[7]}")`
+
 
 ```{r poster7, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
@@ -136,11 +154,12 @@ include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam
 
 <br><br>
 
-## **POSTER 8**
+## **08. `r glue::glue("{df$author[8]}")`**
 
- - **Author**, *Affiliation*
- 
- > One sentence summary of poster results, objective, or message.
+ - **Authors: `r glue::glue("{df$author[8]}, {df$co_authors[8]}")`**
+ - *Affiliation: `r glue::glue("{df$affiliation[8]}")`*
+
+`r glue::glue("{df$abstract[8]}")`
 
 ```{r poster8, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
@@ -151,13 +170,64 @@ include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam
 
 <br><br>
 
-## **POSTER 9**
+## **09. `r glue::glue("{df$author[9]}")`**
 
- - **Author**, *Affiliation*
- 
- > One sentence summary of poster results, objective, or message.
+ - **Authors: `r glue::glue("{df$author[9]}, {df$co_authors[9]}")`**
+ - *Affiliation: `r glue::glue("{df$affiliation[9]}")`*
+
+`r glue::glue("{df$abstract[9]}")`
+
 
 ```{r poster9, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
+
+include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg")
+
+```
+
+<br><br>
+
+## **10. `r glue::glue("{df$author[10]}")`**
+
+ - **Authors: `r glue::glue("{df$author[10]}, {df$co_authors[10]}")`**
+ - *Affiliation: `r glue::glue("{df$affiliation[10]}")`*
+
+`r glue::glue("{df$abstract[10]}")`
+
+
+```{r poster10, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
+
+include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg")
+
+```
+
+
+<br><br>
+
+## **11. `r glue::glue("{df$author[11]}")`**
+
+ - **Authors: `r glue::glue("{df$author[11]}, {df$co_authors[11]}")`**
+ - *Affiliation: `r glue::glue("{df$affiliation[11]}")`*
+
+`r glue::glue("{df$abstract[11]}")`
+
+
+```{r poster11, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
+
+include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg")
+
+```
+
+<br><br>
+
+## **12. `r glue::glue("{df$author[12]}")`**
+
+ - **Authors: `r glue::glue("{df$author[12]}, {df$co_authors[12]}")`**
+ - *Affiliation: `r glue::glue("{df$affiliation[12]}")`*
+
+`r glue::glue("{df$abstract[12]}")`
+
+
+```{r poster12, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
 include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg")
 
