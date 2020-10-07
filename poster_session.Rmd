@@ -180,7 +180,7 @@ include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam
 
 ```{r poster9, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics(here::here("posters","O'Brien_Sean_Biological Sciences.pdf"))
+include_graphics("posters/O'Brien_Sean_Biological Sciences.pdf")
 
 ```
 
@@ -196,7 +196,7 @@ include_graphics(here::here("posters","O'Brien_Sean_Biological Sciences.pdf"))
 
 ```{r poster10, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics(here::here("posters", "AlyssaObester_CABWPoster.pdf"))
+include_graphics("posters/AlyssaObester_CABWPoster.pdf")
 
 ```
 
