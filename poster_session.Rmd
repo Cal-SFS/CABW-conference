@@ -148,7 +148,7 @@ include_graphics("posters/Chen Buck-Diaz Tortosa Kneitel.pdf")
 
 ```{r poster7, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg")
+include_graphics("posters/Koeberle_CCAST_poster_SFS-CA_2020.pdf")
 
 ```
 
