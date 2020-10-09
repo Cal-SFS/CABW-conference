@@ -52,7 +52,7 @@ If you are interested in participating in the Q&A, please view the [Slack FAQ Gu
 
 ```{r poster1, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg")
+include_graphics("posters/SFS_Poster_Arundo_donax_2020.pdf")
 
 ```
 
@@ -69,7 +69,7 @@ include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam
 
 ```{r poster2, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg")
+include_graphics("posters/DePalma-Dow_Angela_TurningUpTheHeatPoster_July2020.pdf")
 
 ```
 
@@ -85,7 +85,7 @@ include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam
 
 ```{r poster3, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg")
+include_graphics("posters/Framsted_ClearLake_CABW_SFSposter.pdf")
 
 ```
 
@@ -100,7 +100,7 @@ include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam
 
 ```{r poster4, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg")
+include_graphics("posters/MDG_CABW_Poster.pdf")
 
 ```
 
@@ -132,7 +132,7 @@ include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam
 
 ```{r poster6, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics("posters/Chen Buck-Diaz Tortosa Kneitel.pdf")
+include_graphics("posters/Chen_Buck-Diaz_Tortosa_Kneitel.pdf")
 
 ```
 
@@ -163,7 +163,7 @@ include_graphics("posters/Koeberle_CCAST_poster_SFS-CA_2020.pdf")
 
 ```{r poster8, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg")
+include_graphics("posters/Reservoir_Poster_2020_reduced.pdf")
 
 ```
 
@@ -219,16 +219,16 @@ include_graphics("posters/Ota_CABWSFSposter.pdf")
 
 <br><br>
 
-## **12. `r glue::glue("{df$author[12]}")`**
+## **12. Maura Palacios**
 
- - **Authors: `r glue::glue("{df$author[12]}, {df$co_authors[12]}")`**
- - *Affiliation: `r glue::glue("{df$affiliation[12]}")`*
+ - **Authors: Maura Palacios, Kiumars Edalati, Emily Curd, Mark Renshaw, Naomi Fraga, Andrew Zdon, Robert Wayne, Sophie Park**
+ - *Affiliation: HHMI Postdoctoral Scholar, University of California, Los Angeles*
 
-`r glue::glue("{df$abstract[12]}")`
-
+Assessing Biodiversity of Mojave Desert Springs using environmental DNA, botanical surveys, geology and ecoregion
 
 ```{r poster12, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg")
+include_graphics("posters/Palacios_Mejia_Maura_CABWPoster_Final.pdf")
 
 ```
+

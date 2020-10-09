@@ -10,6 +10,10 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 library(knitr)
 
+load("assets/poster_info.rda")
+df <- poster_tidy
+
+
 ```
 
 <style>
@@ -30,24 +34,14 @@ If you are interested in participating in the Q&A, please view the [Slack FAQ Gu
 
 <br>
 
-## [Data Visualization for Response](https://www.youtube.com/watch?v=yHahmTU4IAY)
+## **`r glue::glue("{df$author[12]}")`**
 
- - **Author**, *Affiliation*
- 
- > Brief bio of author or one sentence summary of poster results, objective, or message.
+ - **Authors: `r glue::glue("{df$author[12]}, {df$co_authors[12]}")`**
+ - *Affiliation: `r glue::glue("{df$affiliation[12]}")`*
 
-<iframe width="800" height="600" src="https://www.youtube.com/embed/yHahmTU4IAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+`r glue::glue("{df$abstract[12]}")`
 
----
 
-<br>
+<iframe width="800" height="600" src="https://www.youtube.com/embed/uvfSgE6teho" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## [Actionable Bioassessment Data: Using Visualization to Bridge the Research - Management Divide](https://www.youtube.com/watch?v=aTru0OrzaEY)
 
- - **Author**, *Affiliation*
- 
- > Brief bio of author or one sentence summary of poster results, objective, or message.
-
-<iframe width="800" height="600" src="https://www.youtube.com/embed/aTru0OrzaEY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
