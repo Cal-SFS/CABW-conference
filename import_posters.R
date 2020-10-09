@@ -4,7 +4,7 @@ library(rio)
 library(tidyverse)
 library(janitor)
 
-poster <-rio::import("~/Downloads/2020 CABW Presenter Abstract Submission Form (Responses) - posters.csv")
+poster <-rio::import("assets/2020 CABW Presenter Abstract Submission Form (Responses) - posters.csv")
 
 poster <- poster %>% select(name='Submitter Name', title='Presentation Title', 
                             author='Presenting Author(s)', 

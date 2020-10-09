@@ -219,10 +219,10 @@ include_graphics("posters/Ota_CABWSFSposter.pdf")
 
 <br><br>
 
-## **12. Maura Palacios**
+## **12. `r glue::glue("{df$author[12]}")`**
 
- - **Authors: Maura Palacios, Kiumars Edalati, Emily Curd, Mark Renshaw, Naomi Fraga, Andrew Zdon, Robert Wayne, Sophie Park**
- - *Affiliation: HHMI Postdoctoral Scholar, University of California, Los Angeles*
+ - **Authors: `r glue::glue("{df$author[12]}, {df$co_authors[12]}")`**
+ - *Affiliation: `r glue::glue("{df$affiliation[12]}")`*
 
 Assessing Biodiversity of Mojave Desert Springs using environmental DNA, botanical surveys, geology and ecoregion
 
