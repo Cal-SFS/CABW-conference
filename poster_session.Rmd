@@ -34,6 +34,8 @@ We will be using the [Slack](reference.html) platform to gather questions for th
 
 If you are interested in participating in the Q&A, please view the [Slack FAQ Guide](reference.html) for instructions on how to sign up and join (it is free!).
 
+- To Join: [**click this link**](https://join.slack.com/t/californiaaqu-nb73845/shared_invite/zt-h8ddy0hj-2XCZh90D7udsU_9cQPpi8Q) or add the [channel manually](https://slack.com/help/articles/212675257-Join-a-Slack-workspace). Our channel is called: **California Aquatic Bioassessment Workgroup**.
+
 </div>
 <br>
 
@@ -106,6 +108,7 @@ include_graphics("posters/MDG_CABW_Poster.pdf")
 
 <br><br>
 
+<!--
 ## **05. `r glue::glue("{df$author[5]}")`**
 
  - **Authors: `r glue::glue("{df$author[5]}, {df$co_authors[5]}")`**
@@ -121,6 +124,8 @@ include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam
 ```
 
 <br><br>
+
+-->
 
 ## **06. `r glue::glue("{df$author[6]}")`**
 
