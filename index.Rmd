@@ -44,7 +44,7 @@ include_graphics(c("images/waterboards_logo_high_res.jpg","images/sfs_logo.jpg",
 
 <br>
 
-We will be using the [Slack](reference.html) platform to gather questions for the virtual poster presenters and lightning talk presenters. Questions can be submitted all day and long after the meeting is over. The time on the [Agenda](agenda.html) is reserved for a live Q&A session with the virtual poster presenters and lightning talk presenters, where you can converse and get live feedback and responses immediately from the presenters.
+We will be using the [Slack](reference.html) platform to gather questions for the [**virtual poster presenters**](poster_session.html) and [**lightning talk presenters**](short_talks.html). Questions can be submitted all day and long after the meeting is over. The time on the [Agenda](agenda.html) is reserved for a live Q&A session with the virtual poster presenters and lightning talk presenters, where you can converse and get live feedback and responses immediately from the presenters.
 
 If you are interested in participating in the Q&A, please view the [Slack FAQ Guide](reference.html) for instructions on how to sign up and join (it is free!).
 
