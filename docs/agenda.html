@@ -13,7 +13,7 @@
 
 <title>Agenda</title>
 
-<script src="site_libs/header-attrs-2.4/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -33,7 +33,7 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-      </style>
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -79,6 +79,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -286,44 +287,65 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fa fa-home"></span>
+    <span class="fas fa-home"></span>
      
-    CABW 2020
+    CalSFS
   </a>
 </li>
-<li>
-  <a href="agenda.html">
-    <span class="fa fa-list-alt"></span>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fas fa-list-alt"></span>
      
-    Agenda
+    Agendas
+     
+    <span class="caret"></span>
   </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="agenda.html">2020</a>
+    </li>
+  </ul>
 </li>
-<li>
-  <a href="poster_session.html">
-    <span class="fa fa-area-chart fa-1x"></span>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fas fa-area-chart fa-1x"></span>
      
     Posters
+     
+    <span class="caret"></span>
   </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="poster_session.html">2020</a>
+    </li>
+  </ul>
 </li>
-<li>
-  <a href="short_talks.html">
-    <span class="fa fa-flash"></span>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fas fa-flash"></span>
      
     Quick Talks
+     
+    <span class="caret"></span>
   </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="short_talks.html">2020</a>
+    </li>
+  </ul>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="reference.html">
-    <span class="fa fa-question"></span>
+    <span class="fas fa-question"></span>
      
     Slack FAQ
   </a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fa fa-newspaper-o"></span>
+    <span class="fas fa-newspaper-o"></span>
      
     News
      
@@ -335,8 +357,9 @@ $(document).ready(function () {
     </li>
     <li class="divider"></li>
     <li>
-      <a></a>
+      <a href="newsletters.html">Recent Newsletters</a>
     </li>
+    <li class="divider"></li>
     <li>
       <a href="https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/cabw_sfs%20newsletter_final.pdf">2016 Newsletter</a>
     </li>
@@ -350,13 +373,13 @@ $(document).ready(function () {
 </li>
 <li>
   <a href="https://github.com/Cal-SFS/2020-CABW-SFS">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fas fa-github fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://twitter.com/CalSFSsocial">
-    <span class="fa fa-twitter fa-lg"></span>
+    <span class="fas fa-twitter fa-lg"></span>
      
   </a>
 </li>
@@ -418,7 +441,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

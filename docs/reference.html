@@ -13,7 +13,7 @@
 
 <title>Slack FAQ</title>
 
-<script src="site_libs/header-attrs-2.4/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -53,7 +53,7 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-      </style>
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -99,6 +99,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -385,44 +386,65 @@ div.tocify {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fa fa-home"></span>
+    <span class="fas fa-home"></span>
      
-    CABW 2020
+    CalSFS
   </a>
 </li>
-<li>
-  <a href="agenda.html">
-    <span class="fa fa-list-alt"></span>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fas fa-list-alt"></span>
      
-    Agenda
+    Agendas
+     
+    <span class="caret"></span>
   </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="agenda.html">2020</a>
+    </li>
+  </ul>
 </li>
-<li>
-  <a href="poster_session.html">
-    <span class="fa fa-area-chart fa-1x"></span>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fas fa-area-chart fa-1x"></span>
      
     Posters
+     
+    <span class="caret"></span>
   </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="poster_session.html">2020</a>
+    </li>
+  </ul>
 </li>
-<li>
-  <a href="short_talks.html">
-    <span class="fa fa-flash"></span>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fas fa-flash"></span>
      
     Quick Talks
+     
+    <span class="caret"></span>
   </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="short_talks.html">2020</a>
+    </li>
+  </ul>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="reference.html">
-    <span class="fa fa-question"></span>
+    <span class="fas fa-question"></span>
      
     Slack FAQ
   </a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fa fa-newspaper-o"></span>
+    <span class="fas fa-newspaper-o"></span>
      
     News
      
@@ -434,8 +456,9 @@ div.tocify {
     </li>
     <li class="divider"></li>
     <li>
-      <a></a>
+      <a href="newsletters.html">Recent Newsletters</a>
     </li>
+    <li class="divider"></li>
     <li>
       <a href="https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/cabw_sfs%20newsletter_final.pdf">2016 Newsletter</a>
     </li>
@@ -449,13 +472,13 @@ div.tocify {
 </li>
 <li>
   <a href="https://github.com/Cal-SFS/2020-CABW-SFS">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fas fa-github fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://twitter.com/CalSFSsocial">
-    <span class="fa fa-twitter fa-lg"></span>
+    <span class="fas fa-twitter fa-lg"></span>
      
   </a>
 </li>
@@ -479,7 +502,7 @@ div.tocify {
   }
 </style>
 <p><br></p>
-<div class="section level2">
+<div id="what-is-slack" class="section level2">
 <h2><i class="fab  fa-slack "></i> What is Slack?</h2>
 <p>Slack is an online communication platform where users can join chat messaging rooms that are organized by topic. Since we are hosting a virtual meeting this year, the interactions we usually have during in-person events (e.g. chatting in the halls, or during a poster session), unfortunately, will not happen. Slack will allow us to replicate these types of interactions, to the extent we can, in the virtual world.</p>
 <p><strong>We are using it because…</strong></p>
@@ -490,7 +513,7 @@ div.tocify {
 </ul>
 <p><br></p>
 </div>
-<div class="section level2">
+<div id="how-to-join-slack" class="section level2">
 <h2><i class="fas  fa-sign-in-alt "></i> How to Join Slack `</h2>
 <p>We encourage all those interested in engaging through Slack to join in advance of the meeting, if possible.</p>
 <ol style="list-style-type: decimal">
@@ -509,7 +532,7 @@ div.tocify {
 <p><br></p>
 </div>
 </div>
-<div class="section level2">
+<div id="engage" class="section level2">
 <h2><i class="fas  fa-user-friends "></i> Engage!</h2>
 <p>Once you have entered the workspace, you should automatically have all channels added on the left-hand purple bar. Below is just an example of what you might see when you join the workspace (<em>channel names may be updated</em>):
 <br></p>
@@ -532,7 +555,7 @@ div.tocify {
 <p><br></p>
 </div>
 </div>
-<div class="section level2">
+<div id="slack-resources" class="section level2">
 <h2><i class="fas  fa-info-circle "></i> Slack Resources</h2>
 <p>If you are new to Slack and want some additional help using the platform, we recommend you check out:</p>
 <ul>
@@ -567,7 +590,7 @@ div.tocify {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

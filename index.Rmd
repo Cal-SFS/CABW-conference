@@ -1,5 +1,5 @@
 ---
-title: "CABW-Cal SFS 2020"
+title: "CABW-Cal SFS"
 output: 
   bookdown::html_document2:
     includes:
@@ -18,7 +18,7 @@ library(knitr)
 
 <br>
 
-# [CABW](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/)-[Cal SFS](https://freshwater-science.org/my-sfs/chapters/california) 2020
+# [CABW](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/)-[Cal SFS](https://freshwater-science.org/my-sfs/chapters/california)
 
 
 ```{r logo, echo=FALSE, out.width="30%", out.height="15%", dpi=300, fig.show='hold',fig.align='default'}
@@ -30,23 +30,39 @@ include_graphics(c("images/waterboards_logo_high_res.jpg","images/sfs_logo.jpg",
 
 <br> 
 
-## **Welcome to 27th Annual (Virtual) California Aquatic Bioassessment Workgroup!**
+## **Welcome to the California Aquatic Bioassessment Workgroup!**
 
-<br>
 
-<div class = "blue">
-**Important Info**:  
+### Current News
 
- - See the [Meeting Agenda](agenda.html) for more details.
- - While this conference is virtual, we ask that all participants follow the [SFS Code of Conduct](https://freshwater-science.org/about/society-governance/code-of-conduct). For concerns or issues please contact: <a href="mailto:Shuka.Rastegarpour@waterboards.ca.gov">Shuka Rastegarpour</a>
+*updated 2021-01-28*
+
+Please see the Cal-SFS Fellows call, **due Feb 10, 2021**.
+
+<div class = "row">
+  
+```{r fellows2021, echo=FALSE, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
+
+include_graphics("images/2021_CalSFS_Fellowship_Application_Flyer.pdf")
+
+```
 
 </div>
 
 <br>
 
-We will be using the [Slack](reference.html) platform to gather questions for the [**virtual poster presenters**](poster_session.html) and [**lightning talk presenters**](short_talks.html). Questions can be submitted all day and long after the meeting is over. The time on the [Agenda](agenda.html) is reserved for a live Q&A session with the virtual poster presenters and lightning talk presenters, where you can converse and get live feedback and responses immediately from the presenters.
+<div class = "blue">
+**More Info**:  
 
-If you are interested in participating in the Q&A, please view the [Slack FAQ Guide](reference.html) for instructions on how to sign up and join (it is free!).
+ - See the [Meeting Agendas tab](agenda.html) for more details on past/upcoming meetings.
+
+ - This collaborative group asks that all participants follow the [SFS Code of Conduct](https://freshwater-science.org/about/society-governance/code-of-conduct), whether virtual or in person. For concerns or issues please contact: <a href="mailto:Shuka.Rastegarpour@waterboards.ca.gov">Shuka Rastegarpour</a>
+
+</div>
+
+<br>
+
+
 
 
 <br>

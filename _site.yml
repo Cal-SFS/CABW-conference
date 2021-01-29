@@ -15,18 +15,24 @@ output:
 navbar:
   type: inverse
   left:
-  - text: "CABW 2020"
+  - text: "CalSFS"
     icon: fa-home
     href: index.html
-  - text: "Agenda"
+  - text: "Agendas"
     icon: fa-list-alt
-    href: agenda.html
+    menu: 
+      - text: "2020"
+        href: agenda.html
   - text: "Posters"
     icon: fa-area-chart fa-1x
-    href: poster_session.html
+    menu: 
+      - text: "2020"
+        href: poster_session.html
   - text: "Quick Talks"
     icon: fa-flash
-    href: short_talks.html
+    menu: 
+      - text: "2020"
+        href: short_talks.html
   right:
   - text: Slack FAQ
     icon: fa-question
@@ -34,17 +40,19 @@ navbar:
   - text: News
     icon: fa-newspaper-o
     menu:
-    - text: Previous Conferences
-      href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/cabw.html
-    - text: ---
-    - text: 
-     
-    - text: 2016 Newsletter
-      href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/cabw_sfs%20newsletter_final.pdf
-    - text: 2017 Newsletter
-      href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/2017_cabw_sfs_final_newsletter.pdf
-    - text: 2018 Newsletter
-      href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/winter18_19_cabw_calsfs_newsletter.pdf
+      - text: "Current Newsletter"
+        icon: fa-sticky-note  
+        href: newsletters.html
+      - text: ---
+      - text: 2016 Newsletter
+        href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/cabw_sfs%20newsletter_final.pdf
+      - text: 2017 Newsletter
+        href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/2017_cabw_sfs_final_newsletter.pdf
+      - text: 2018 Newsletter
+        href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/winter18_19_cabw_calsfs_newsletter.pdf
+      - text: ---  
+      - text: Previous Conferences
+        href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/cabw.html
   - icon: fa-github fa-lg
     href: https://github.com/Cal-SFS/2020-CABW-SFS
   - icon: fa-twitter fa-lg

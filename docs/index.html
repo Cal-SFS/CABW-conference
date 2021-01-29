@@ -11,9 +11,9 @@
 
 
 
-<title>CABW-Cal SFS 2020</title>
+<title>CABW-Cal SFS</title>
 
-<script src="site_libs/header-attrs-2.4/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -33,7 +33,7 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-      </style>
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -79,6 +79,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -286,44 +287,65 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fa fa-home"></span>
+    <span class="fas fa-home"></span>
      
-    CABW 2020
+    CalSFS
   </a>
 </li>
-<li>
-  <a href="agenda.html">
-    <span class="fa fa-list-alt"></span>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fas fa-list-alt"></span>
      
-    Agenda
+    Agendas
+     
+    <span class="caret"></span>
   </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="agenda.html">2020</a>
+    </li>
+  </ul>
 </li>
-<li>
-  <a href="poster_session.html">
-    <span class="fa fa-area-chart fa-1x"></span>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fas fa-area-chart fa-1x"></span>
      
     Posters
+     
+    <span class="caret"></span>
   </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="poster_session.html">2020</a>
+    </li>
+  </ul>
 </li>
-<li>
-  <a href="short_talks.html">
-    <span class="fa fa-flash"></span>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fas fa-flash"></span>
      
     Quick Talks
+     
+    <span class="caret"></span>
   </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="short_talks.html">2020</a>
+    </li>
+  </ul>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="reference.html">
-    <span class="fa fa-question"></span>
+    <span class="fas fa-question"></span>
      
     Slack FAQ
   </a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fa fa-newspaper-o"></span>
+    <span class="fas fa-newspaper-o"></span>
      
     News
      
@@ -331,12 +353,13 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/cabw.html">Previous Conferences</a>
+      <a href="newsletters.html">
+        <span class="fas fa-sticky-note"></span>
+         
+        Current Newsletter
+      </a>
     </li>
     <li class="divider"></li>
-    <li>
-      <a></a>
-    </li>
     <li>
       <a href="https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/cabw_sfs%20newsletter_final.pdf">2016 Newsletter</a>
     </li>
@@ -346,17 +369,21 @@ $(document).ready(function () {
     <li>
       <a href="https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/winter18_19_cabw_calsfs_newsletter.pdf">2018 Newsletter</a>
     </li>
+    <li class="divider"></li>
+    <li>
+      <a href="https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/cabw.html">Previous Conferences</a>
+    </li>
   </ul>
 </li>
 <li>
   <a href="https://github.com/Cal-SFS/2020-CABW-SFS">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fas fa-github fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://twitter.com/CalSFSsocial">
-    <span class="fa fa-twitter fa-lg"></span>
+    <span class="fas fa-twitter fa-lg"></span>
      
   </a>
 </li>
@@ -369,7 +396,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">CABW-Cal SFS 2020</h1>
+<h1 class="title toc-ignore">CABW-Cal SFS</h1>
 
 </div>
 
@@ -380,27 +407,34 @@ $(document).ready(function () {
   }
 </style>
 <p><br></p>
-<div id="cabw-cal-sfs-2020" class="section level1">
-<h1><a href="https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/">CABW</a>-<a href="https://freshwater-science.org/my-sfs/chapters/california">Cal SFS</a> 2020</h1>
+<div id="cabw-cal-sfs" class="section level1">
+<h1><a href="https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/">CABW</a>-<a href="https://freshwater-science.org/my-sfs/chapters/california">Cal SFS</a></h1>
 <p><img src="images/waterboards_logo_high_res.jpg" width="30%" height="15%" /><img src="images/sfs_logo.jpg" width="30%" height="15%" /><img src="images/swamp_fish_logo.gif" width="30%" height="15%" /></p>
 <p><br></p>
-<div id="welcome-to-27th-annual-virtual-california-aquatic-bioassessment-workgroup" class="section level2">
-<h2><strong>Welcome to 27th Annual (Virtual) California Aquatic Bioassessment Workgroup!</strong></h2>
+<div id="welcome-to-the-california-aquatic-bioassessment-workgroup" class="section level2">
+<h2><strong>Welcome to the California Aquatic Bioassessment Workgroup!</strong></h2>
+<div id="current-news" class="section level3">
+<h3>Current News</h3>
+<p><em>updated 2021-01-28</em></p>
+<p>Please see the Cal-SFS Fellows call, <strong>due Feb 10, 2021</strong>.</p>
+<div class = "row">
+
+<embed src="images/2021_CalSFS_Fellowship_Application_Flyer.pdf" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" type="application/pdf" />
+</div>
 <p><br></p>
 <div class="blue">
-<p><strong>Important Info</strong>:</p>
+<p><strong>More Info</strong>:</p>
 <ul>
-<li>See the <a href="agenda.html">Meeting Agenda</a> for more details.</li>
-<li>While this conference is virtual, we ask that all participants follow the <a href="https://freshwater-science.org/about/society-governance/code-of-conduct">SFS Code of Conduct</a>. For concerns or issues please contact: <a href="mailto:Shuka.Rastegarpour@waterboards.ca.gov">Shuka Rastegarpour</a></li>
+<li><p>See the <a href="agenda.html">Meeting Agendas tab</a> for more details on past/upcoming meetings.</p></li>
+<li><p>This collaborative group asks that all participants follow the <a href="https://freshwater-science.org/about/society-governance/code-of-conduct">SFS Code of Conduct</a>, whether virtual or in person. For concerns or issues please contact: <a href="mailto:Shuka.Rastegarpour@waterboards.ca.gov">Shuka Rastegarpour</a></p></li>
 </ul>
 </div>
 <p><br></p>
-<p>We will be using the <a href="reference.html">Slack</a> platform to gather questions for the <a href="poster_session.html"><strong>virtual poster presenters</strong></a> and <a href="short_talks.html"><strong>lightning talk presenters</strong></a>. Questions can be submitted all day and long after the meeting is over. The time on the <a href="agenda.html">Agenda</a> is reserved for a live Q&amp;A session with the virtual poster presenters and lightning talk presenters, where you can converse and get live feedback and responses immediately from the presenters.</p>
-<p>If you are interested in participating in the Q&amp;A, please view the <a href="reference.html">Slack FAQ Guide</a> for instructions on how to sign up and join (it is free!).</p>
 <p><br></p>
 <p><br></p>
 <hr />
-<p><em>site updated: <code>2020-10-12 09:50</code></em></p>
+<p><em>site updated: <code>2021-01-28 18:03</code></em></p>
+</div>
 </div>
 </div>
 
@@ -428,7 +462,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

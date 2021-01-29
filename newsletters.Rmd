@@ -1,0 +1,38 @@
+---
+title: "Newsletters"
+output: 
+  bookdown::html_document2:
+    toc: false
+    includes:
+      after_body: assets/foot.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(knitr)
+
+```
+
+<style>
+  .title{
+    display: none;
+  }
+</style>
+
+<br>
+
+
+<div class = "row">
+  
+## **2020-2021 Newsletter**
+
+```{r news20201, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
+
+include_graphics("images/2020_2021_CalSFS_CABW_Newsletter.pdf")
+
+```
+
+</div>
+
+<br>
+
