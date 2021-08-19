@@ -21,18 +21,24 @@ navbar:
   - text: "Agendas"
     icon: fa-list-alt
     menu: 
+      - text: "2021"
+        href: 2021_agenda.html
       - text: "2020"
         href: 2020_agenda.html
   - text: "Posters"
     icon: fa-area-chart fa-1x
     menu: 
+      - text: "2021"
+        href: 2021_poster_session.html
       - text: "2020"
-        href: poster_session.html
+        href: 2020_poster_session.html
   - text: "Quick Talks"
     icon: fa-flash
     menu: 
+      - text: "2021"
+        href: 2021_short_talks.html
       - text: "2020"
-        href: short_talks.html
+        href: 2020_short_talks.html
   right:
   - text: Slack FAQ
     icon: fa-question
