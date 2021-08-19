@@ -13,6 +13,7 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+#library(icon)
 ```
 
 
@@ -25,7 +26,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <br>
 
-## `r icon::fa("slack")` What is Slack?
+##  What is Slack?
 
 Slack is an online communication platform where users can join chat messaging rooms that are organized by topic. Since we are hosting a virtual meeting this year, the interactions we usually have during in-person events (e.g. chatting in the halls, or during a poster session), unfortunately, will not happen. Slack will allow us to replicate these types of interactions, to the extent we can, in the virtual world. 
 
@@ -39,7 +40,7 @@ Slack is an online communication platform where users can join chat messaging ro
 
 <br>
 
-## `r icon::fa("sign-in-alt")` How to Join Slack `
+##  How to Join Slack `
 
 We encourage all those interested in engaging through Slack to join in advance of the meeting, if possible. 
 
@@ -62,7 +63,7 @@ We encourage all those interested in engaging through Slack to join in advance o
 
 <br>
 
-## `r icon::fa("user-friends")` Engage! 
+##  Engage! 
 
 Once you have entered the workspace, you should automatically have all channels added on the left-hand purple bar. Below is just an example of what you might see when you join the workspace (*channel names may be updated*):
 <br>
@@ -91,7 +92,7 @@ If you cannot get Slack to work but still have a question you would like to ask 
 
 <br>
 
-## `r icon::fa("info-circle")` Slack Resources 
+##  Slack Resources 
 
 If you are new to Slack and want some additional help using the platform, we recommend you check out:
 

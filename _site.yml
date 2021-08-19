@@ -1,4 +1,4 @@
-name: "CABW-SFS"
+name: "CABW-conference"
 output_dir: docs
 output:
   bookdown::html_document2:
@@ -15,14 +15,14 @@ output:
 navbar:
   type: inverse
   left:
-  - text: "CalSFS"
+  - text: ""
     icon: fa-home
     href: index.html
   - text: "Agendas"
     icon: fa-list-alt
     menu: 
       - text: "2020"
-        href: agenda.html
+        href: 2020_agenda.html
   - text: "Posters"
     icon: fa-area-chart fa-1x
     menu: 
@@ -54,7 +54,7 @@ navbar:
       - text: Previous Conferences
         href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/cabw.html
   - icon: fa-github fa-lg
-    href: https://github.com/Cal-SFS/2020-CABW-SFS
+    href: https://github.com/Cal-SFS/CABW-conference
   - icon: fa-twitter fa-lg
     href: https://twitter.com/CalSFSsocial
  
