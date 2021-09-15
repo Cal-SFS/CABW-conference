@@ -1,5 +1,5 @@
 ---
-title: "Newsletters"
+title: "Opportunities"
 output: 
   bookdown::html_document2:
     toc: false
@@ -23,15 +23,17 @@ library(knitr)
 
 <div class = "row">
   
-## **2020-2021 Newsletter**
+*No open fellowship opportunities at this time. Check back soon!*  
+<br>
+
+### **2021 CalSFS Fellowship Application**
 
 ```{r news20201, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics("images/2020_2021_CalSFS_CABW_Newsletter.pdf")
+include_graphics("images/2021_CalSFS_Fellowship_Application_Flyer.pdf")
 
 ```
 
 </div>
 
 <br>
-

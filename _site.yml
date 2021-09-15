@@ -25,20 +25,19 @@ navbar:
         href: 2021_agenda.html
       - text: "2020"
         href: 2020_agenda.html
-  - text: "Posters"
+  - text: "Presentations"
     icon: fa-area-chart fa-1x
     menu: 
       - text: "2021"
-        href: 2021_poster_session.html
+        menu:
+          - text: "Posters"
+            href: 2021_poster_session.html
       - text: "2020"
-        href: 2020_poster_session.html
-  - text: "Quick Talks"
-    icon: fa-flash
-    menu: 
-      - text: "2021"
-        href: 2021_short_talks.html
-      - text: "2020"
-        href: 2020_short_talks.html
+        menu:
+          - text: "Posters"
+            href: 2020_poster_session.html
+          - text: "Quick Talks"
+            href: 2020_short_talks.html
   right:
   - text: Slack FAQ
     icon: fa-question
@@ -50,12 +49,19 @@ navbar:
         icon: fa-sticky-note  
         href: newsletters.html
       - text: ---
-      - text: 2016 Newsletter
-        href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/cabw_sfs%20newsletter_final.pdf
-      - text: 2017 Newsletter
-        href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/2017_cabw_sfs_final_newsletter.pdf
+      - text: "CalSFS Fellowships"
+        href: opportunities.html
+      - text: ---
+      - text: 2020 Newsletter
+        href: https://freshwater-science.org/sites/default/files/medialib/2020_2021_calsfs_cabw_newsletter.pdf
+      - text: 2019 Newsletter
+        href: https://freshwater-science.org/sites/default/files/medialib/2019_calsfs_cabw_newsletter_final_for_website.pdf
       - text: 2018 Newsletter
-        href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/winter18_19_cabw_calsfs_newsletter.pdf
+        href: https://freshwater-science.org/sites/default/files/33_ca_update_newsletter.pdf
+      - text: 2017 Newsletter
+        href: https://freshwater-science.org/sites/default/files/cabw_sfs_newsletter_2017.pdf
+      - text: 2016 Newsletter
+        href: https://freshwater-science.org/sites/default/files/cabw_sfs_newsletter_v6.pdf
       - text: ---  
       - text: Previous Conferences
         href: https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/cabw.html
