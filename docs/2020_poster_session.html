@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Poster Session</title>
+
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home fa-1.5x"></span>
+     
+    
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-list-alt"></span>
+     
+    Agendas
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="2021_agenda.html">2021</a>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="2020_agenda.html">2020</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-area-chart fa-1x"></span>
+     
+    Presentations
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">2021</a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="2021_poster_session.html">Posters</a>
+        </li>
+      </ul>
+    </li>
+    <li class="divider"></li>
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">2020</a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="2020_poster_session.html">Posters</a>
+        </li>
+        <li>
+          <a href="2020_short_talks.html">Quick Talks</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-newspaper-o"></span>
+     
+    News
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="newsletters.html">Current Newsletter</a>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="opportunities.html">CalSFS Fellowships</a>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="https://freshwater-science.org/sites/default/files/medialib/2020_2021_calsfs_cabw_newsletter.pdf">2020 Newsletter</a>
+    </li>
+    <li>
+      <a href="https://freshwater-science.org/sites/default/files/medialib/2019_calsfs_cabw_newsletter_final_for_website.pdf">2019 Newsletter</a>
+    </li>
+    <li>
+      <a href="https://freshwater-science.org/sites/default/files/33_ca_update_newsletter.pdf">2018 Newsletter</a>
+    </li>
+    <li>
+      <a href="https://freshwater-science.org/sites/default/files/cabw_sfs_newsletter_2017.pdf">2017 Newsletter</a>
+    </li>
+    <li>
+      <a href="https://freshwater-science.org/sites/default/files/cabw_sfs_newsletter_v6.pdf">2016 Newsletter</a>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/cabw.html">Previous Conferences</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="https://github.com/Cal-SFS/CABW-conference">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/CalSFSsocial">
+    <span class="fa fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Poster Session</h1>
+
+</div>
+
+
+<style>
+  .title{
+    display: none;
+  }
+</style>
+<p><br></p>
+<div class="blue">
+<p>All posters submitted for the 2020 CABW Meeting are found below.</p>
+<p>We will be using the <a href="reference.html">Slack</a> platform to gather questions for the virtual poster presenters and lightning talk presenters. Questions can be submitted all day and long after the meeting is over. The time on the <a href="agenda.html">Agenda</a> is reserved for a live Q&amp;A session with the virtual poster presenters and lightning talk presenters, where you can converse and get live feedback and responses immediately from the presenters.</p>
+<p>If you are interested in participating in the Q&amp;A, please view the <a href="reference.html">Slack FAQ Guide</a> for instructions on how to sign up and join (it is free!).</p>
+<ul>
+<li>To Join: <a href="https://join.slack.com/t/californiaaqu-nb73845/shared_invite/zt-h8ddy0hj-2XCZh90D7udsU_9cQPpi8Q"><strong>click this link</strong></a> or add the <a href="https://slack.com/help/articles/212675257-Join-a-Slack-workspace">channel manually</a>. Our channel is called: <strong>California Aquatic Bioassessment Workgroup</strong>.</li>
+</ul>
+</div>
+<p><br></p>
+<div id="posters" class="section level1">
+<h1>Posters</h1>
+<p><br><br></p>
+<div class = "row">
+
+<div id="jonathon-carmichael" class="section level2">
+<h2><strong>01. Jonathon Carmichael</strong></h2>
+<ul>
+<li><strong>Authors: Jonathon Carmichael, Paco Villegas, Andrew Caudillo, and Dr. John Olson</strong></li>
+<li><em>Affiliation: California State University Monterey Bay</em></li>
+</ul>
+<p>Arundo donax (giant cane) is an invasive species which alters river morphology and nutritional resources of riparian ecosystems. We examined if the removal of A. donax improves biodiversity in aerial macroinvertebrates in the Salinas River. We collected invertebrates during the summer of 2019 for 8 days, at 5 sites, with 5 sets of 4 adhesive traps at each site. Traps each faced one of four directions, away/toward the river channel, and up/down stream. The furthest upstream sites had A. donax removed in 2016. We saw a greater family level richness and increased dispersal from the channel and upstream at the site where A. donax was removed. The removal site had slightly greater abundance, whereas the site with A. donax had a slightly increased Shannon diversity (H = 2.63 with A. donax, H = 2.43 without). The impact of A. donax on macroinvertebrates imply that removing A. donax may result in only minor effects on the food web. The lack of improvement for most taxa may be due to the ecosystem needing more than three years after treatment to fully recover. Although A. donax reshapes ecological river habitats, its removal does not immediately restore the ecosystem.</p>
+<embed src="posters/SFS_Poster_Arundo_donax_2020.pdf" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" type="application/pdf" />
+</div>
+<p><br><br></p>
+</div>
+<div id="angela-de-palma-dow" class="section level2">
+<h2><strong>02. Angela De Palma-Dow</strong></h2>
+<ul>
+<li><strong>Authors: Angela De Palma-Dow, Ian M. McCullough, Jennifer Brentrup</strong></li>
+<li><em>Affiliation: Lake County Water Resources Department</em></li>
+</ul>
+<p>The Mendocino Complex was the largest wildfire in post-settlement CA history, burning 459,123 acres from July to Nov 2018. The Complex burned 40% of the Clear Lake watershed, raising concerns about fire and fire response effects on water quality. Clear Lake is the largest natural lake entirely within California, is hypereutrophic and is primarily used for recreation, drinking water, tribal use, and supports a tourism-based local fishing economy. Long-term lake monitoring since the 1960s facilitates contextualization of post-fire water quality with respect to long-term trends. Results indicated that historic wildfire watershed burn area was not associated with total phosphorous (TP) in Clear Lake although TP has increased 3-5 µg/L/yr since the late 1960s across three surface sample stations. When comparing pre to post-fire surface Chl-a (and TSS) post-fire concentrations were within historical ranges of variability. Long-term TP was more strongly correlated with maximum air temperatures than precipitation or watershed wildfire area, suggesting a role of warming-induced sediment resuspension and dissolved oxygen depletion in long-term TP increases. Overall, our results suggest greater vulnerability of large, eutrophic or hypereutrophic lake water quality to long-term climate warming rather than episodic, large wildfires due to high pre-fire nutrient pools. Nonetheless, our study underscores the value of long-term water quality monitoring and the need to study fire effects across a wide range of lake, landscape and fire characteristics to promote more effective future water resource management.</p>
+<embed src="posters/DePalma-Dow_Angela_TurningUpTheHeatPoster_July2020.pdf" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" type="application/pdf" />
+<p><br><br></p>
+</div>
+<div id="nick-framsted" class="section level2">
+<h2><strong>03. Nick Framsted</strong></h2>
+<ul>
+<li><strong>Authors: Nick Framsted, Steven Sadro, Alex Forrest, Geoff Schladow</strong></li>
+<li><em>Affiliation: UC Davis</em></li>
+</ul>
+<p>Eutrophication is a major problem globally that results from excessive nutrients, such as phosphorus, in aquatic systems. In the case of phosphorus, sources can be external (i.e. runoff) or from within the lake (internal loading). Internal loading is a phenomenon where chemically reduced conditions at the sediment-water interface of lake bottoms (usually induced by anoxic conditions) facilitate the diffusion of metal-bound forms of phosphorus from sediments into the overlying water. Efforts to restore Clear Lake, a hyper-eutrophic lake located in Lake County, CA, have largely focused on external nutrient inputs as the cause of excessive phosphorus concentrations. This project provided the first direct measure of internal phosphorus loading from the nutrient-rich lake-bottom sediments to the overlying water column. Preliminary estimates of soluble reactive phosphorus (SRP) flux rates from sediments ranged from 23.7 to 71.9 mg m-2 d-1 in anoxic treatments and from -0.14 to 1.16 mg m-2 d-1 in oxygenated treatments. Estimated annual internal loads contribute 68.9 MT P yr-1—more than annual external loads— and account for 57-65% of total SRP loads to the lake. These incubations improve upon past internal loading estimates and inform managers as they assess total maximum daily loads (TMDLs) of phosphorus for the lake.</p>
+<embed src="posters/Framsted_ClearLake_CABW_SFSposter.pdf" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" type="application/pdf" />
+<p><br><br></p>
+</div>
+<div id="matthew-d.-green" class="section level2">
+<h2><strong>04. Matthew D. Green</strong></h2>
+<ul>
+<li><strong>Authors: Matthew D. Green, Kurt E. Anderson and David B. Herbst</strong></li>
+<li><em>Affiliation: University of California, Riverside</em></li>
+</ul>
+<p>High elevation freshwater ecosystems harbor exceptional biodiversity. These ecosystems are disproportionately affected by climate change, where increasing temperatures paired with altered precipitation regimes may be reorganizing the structure and function of aquatic communities. Predicting and protecting from threats requires understanding how hydroclimate change affects natural ecosystems. The river continuum concept (RCC) and mighty headwaters hypothesis (MHH) predict biodiversity change along the river network. However, in high elevation aquatic systems, streams are connected with lakes, in lake-stream networks. To address this, we apply the Serial Discontinuity Concept (SDC) to understand the effects of lakes on downstream communities. In this study, we tested the SDH, RCC, and MHH using stream invertebrate communities inhabiting high elevation lake-stream networks. Overall, we found support that biodiversity in lake-stream networks is structured along the river network, similar to classically studied streams, but lakes do modify aspects of community structure. We found support for the RCC and MHH, where community richness increases and beta diversity decreases moving downstream. Local communities were also structured by distance from upstream lakes in support of the SDC, where lakes modify community evenness. Alpine lake-stream networks produce distinct biodiversity patterns that may serve as an indicator of shifting climate regimes.</p>
+<embed src="posters/MDG_CABW_Poster.pdf" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" type="application/pdf" />
+<p><br><br></p>
+<!--
+## **05. Parker Kalan**
+
+ - **Authors: Parker Kalan, Freddy Otte, Crow White, Michael Gates**
+ - *Affiliation: California Polytechnic State University*
+
+Water quality represents a serious concern for water resource management, ecosystem health, and recreational water use. Pacific lamprey filter feed within the water column reducing a variety of suspended detritus.  This could have implications on water quality, and subsequently, watershed management and success of restoration efforts.  Primarily efforts to reduce pathogenic bacteria
+
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam_under_construction_new_edit.jpg" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" />
+
+<br><br>
+
+-->
+</div>
+<div id="jamie-kneitel" class="section level2">
+<h2><strong>06. Jamie Kneitel</strong></h2>
+<ul>
+<li><strong>Authors: Jamie Kneitel, Vincent Chen &amp; Jennifer Buck-Diaz</strong></li>
+<li><em>Affiliation: JK &amp; VC: California State University, Sacramento &amp; JB-D: California Native Plant Society</em></li>
+</ul>
+<p>Biodiversity patterns can be assessed at different spatial scales, including local (alpha diversity), between communities (beta diversity), and regional (gamma diversity). Different factors (climate, community size, location) can affect these patterns and this may also be contingent on species traits. Temporary aquatic ecosystems, however, have been understudied in this regard. We used data from California vernal pools to examine spatial diversity patterns of plant species along a latitudinal gradient. Species were also categorized as native or invasive and forb or grass. Pool characteristics and climate data were also attained. The data consisted of over 1000 vernal pools from sites across 10 degrees of latitude in California and included over 500 plant species. We used multiple regression and multivariate approaches to assess diversity patterns of these groups. Biodiversity across different spatial scales were associated with many different factors, including latitude, climate measures, and pool sizes. For example, native plants increased with latitude, pool size, and average temperature, while invasive plants increased with latitude and precipitation variation. With vernal pools facing many challenges, including habitat destruction and invasive species, this study identifies the factors influencing diversity across California.</p>
+<embed src="posters/Chen_Buck-Diaz_Tortosa_Kneitel.pdf" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" type="application/pdf" />
+<p><br><br></p>
+</div>
+<div id="alex-koeberle" class="section level2">
+<h2><strong>07. Alex Koeberle</strong></h2>
+<ul>
+<li><strong>Authors: Alex Koeberle, Matthew Grabau, Genevieve Johnson, Anna Weinberg, Larry Fisher, Deanna Morrell</strong></li>
+<li><em>Affiliation: School of Natural Resources and the Environment, University of Arizona (Alex, Anna, Larry); U.S. Fish and Wildlife Service (Matt); U.S. Bureau of Reclamation (Genevieve and Deanna)</em></li>
+</ul>
+<p>The Collaborative Conservation and Adaptation Strategy Toolbox (CCAST) is an online platform to share resource management, conservation, and actionable science Case Studies. In 2020, the CCAST Team is using this platform to launch a Community of Practice to address non-native aquatic species in the Southwest. Two full-time CCAST staff with the University of Arizona are compiling knowledge and working with state and federal partners to identify research and management priorities for non-native aquatic species such as bullfrogs, crayfish, and freshwater mussels, as well as unwanted freshwater fishes. Current projects featured in CCAST include Green Sunfish removal in stream systems, landscape-level bullfrog eradication across southern Arizona, and bullfrog removal in Yosemite National Park, California. CCAST is supported by the U.S. Fish and Wildlife Service, Bureau of Reclamation, USDA Southwest Climate Hub, and University of Arizona, and contains approximately 80 Case Studies to date from across western North America. Case Studies, provided by a diverse group of collaborators, describe project goals, highlight outcomes and lessons learned, and compile project reports, presentations, and datasets.</p>
+<embed src="posters/Koeberle_CCAST_poster_SFS-CA_2020.pdf" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" type="application/pdf" />
+<p><br><br></p>
+</div>
+<div id="kiana-lindblad" class="section level2">
+<h2><strong>08. Kiana Lindblad</strong></h2>
+<ul>
+<li><strong>Authors: Kiana Lindblad, Christine A. Parisek, Elias Tita, Francine A. De Castro, George R. Leidy, Andrew L. Rypel</strong></li>
+<li><em>Affiliation: 1Evolutionary Biology, Ecology &amp; Biodiversity, University of California Davis, Davis CA USA, 2 Department of Wildlife, Fish &amp; Conservation Biology, University of California Davis, Davis CA USA, 3 School of Global Studies, University of Sussex, Brighton, UK, 4 Center for Watershed Sciences, University of California Davis, Davis CA USA, 5 EIP Associates, Sacramento, CA USA </em></li>
+</ul>
+<p>Reservoirs are understudied fisheries resources and little is known on how species biomass varies across reservoir types. We are in the process of digitizing a legacy paper database originally collated by the US Army Corps of Engineers containing fish species biomass data from 1127 poisoning surveys on 301 USA reservoirs. We utilized a new nationwide reservoir classification system whereby reservoirs are clustered using Omernik ecoregion, reservoir storage volume, and outflow (De Castro et al. in review). Across all reservoirs, the most common species were Bluegill (98% occurrence), Largemouth Bass (97%), and Gizzard Shad (91%). Across all reservoirs where present, highest mean biomass values were Gizzard Shad (135.4 kg ha-1), Grass Carp (44.5 kg ha-1), Rio Grande Cichlid (116.0 kg ha-1), Smallmouth Buffalo (34.1 kg ha-1), Bluegill (24.4 kg ha-1), and Freshwater Drum (22.1 kg ha-1). Overall, benthic feeders have higher mean biomass (2.4 kg ha-1) compared to pelagic feeders (0.9 kg ha-1), suggesting that littoral habitats may be more important to reservoir fisheries production than previously thought. Conservation management of reservoir fisheries will require increased understanding of these patterns including how reservoir ecosystems have shifted in structure and function over time.</p>
+<embed src="posters/Reservoir_Poster_2020_reduced.pdf" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" type="application/pdf" />
+<p><br><br></p>
+</div>
+<div id="sean-obrien" class="section level2">
+<h2><strong>09. Sean O’Brien</strong></h2>
+<ul>
+<li><strong>Authors: Sean O’Brien, Dr. Jamie Kneitel</strong></li>
+<li><em>Affiliation: California State University Sacramento</em></li>
+</ul>
+<p>The extensive loss of natural wetlands and temporary ponds worldwide has led to the creation and restoration for biodiversity and functional objectives. The assessment of various restoration approaches of these habitats can promote the persistence of their inhabitants, including aquatic invertebrate communities. While aquatic invertebrate communities within restored perennial waterbodies are usually studied, few studies have occurred in seasonal wetlands, especially in California where over 90% of all vernal pool habitats have been destroyed. I compared 90 natural and 90 human-constructed vernal pools of different ages across 10 sites throughout California. An underutilized method, dry-season sampling, was used to compare natural and restored vernal pools. Species diversity and abundance of aquatic invertebrates were enumerated by culturing resting eggs in mesocosms. Preliminary data analysis suggests that human-constructed pools may support different aquatic invertebrate communities than their natural counter-parts. In particular, densities of threatened and endangered species appear to be lower in human-constructed pools. This study will illuminate how created and restored vernal pools can reflect natural pools, which is critical to conservation of vernal pool species and their critically endangered habitats.</p>
+<embed src="posters/O'Brien_Sean_Biological Sciences.pdf" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" type="application/pdf" />
+<p><br><br></p>
+</div>
+<div id="alyssa-obester" class="section level2">
+<h2><strong>10. Alyssa Obester</strong></h2>
+<ul>
+<li><strong>Authors: Alyssa Obester, Bronwen Stanford, Amber Villalobos, Sean Windell, Lily McDougall</strong></li>
+<li><em>Affiliation: California Department of Fish and Wildlife</em></li>
+</ul>
+<p>In California, variable hydrology, climate change, and water demand have created complex challenges for freshwater ecosystem management. The California Department of Fish and Wildlife (CDFW) is tasked with identifying instream flow criteria and developing ecological flow regime prescriptions that are protective of fish, wildlife, and the habitats that support them. While a variety of species- and site-specific methods for determining instream flows exist, these approaches are frequently time- and resource-intensive. In response to the need for rapid, cost-effective methods for determining instream flows, CDFW has developed a standardized approach to identify flow regime criteria on a watershed scale. This approach uses a combination of desktop and field analyses to produce watershed flow criteria. Here, we present the results from a selection of Instream Flow Regime Criteria on a Watershed Scale reports, illustrating the utility and flexibility of the products in varying scales and geographies. We also discuss how results could be used in a management context.</p>
+<embed src="posters/AlyssaObester_CABWPoster.pdf" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" type="application/pdf" />
+<p><br><br></p>
+</div>
+<div id="william-ota" class="section level2">
+<h2><strong>11. William Ota</strong></h2>
+<ul>
+<li><strong>Authors: William Ota, Bobby Nakamoto, Kurt Anderson, Marilyn Fogel</strong></li>
+<li><em>Affiliation: 1. UC Riverside EEOB Department 900 University Ave, Riverside, CA 92521 2. UC Riverside EDGE Institute 900 University Ave, Riverside, CA 92521</em></li>
+</ul>
+<p>The Santa Ana River runs through dense urban development and common invasive species include largemouth bass, yellow bullhead, and mosquitofish. These species are frequently found in and around the wastewater discharge channels that maintain flow in the urban Santa Ana River. Wastewater discharge and invasive species are impacting native fishes, the Santa Ana sucker and Arroyo chub. Invasive species are changing community structure in the Santa Ana River as novel biotic filters in these communities. We assessed the trophic niche of these three common invasive species across two wastewater discharge channels. Bulk C/N isotope analyses show that there are significant differences in the invasive communities along the assessed reaches of the Santa Ana River and the same species held different isotopic niches based on which channel they were located in. This work also suggests significant differences in food web composition between the two wastewater discharge channels. We plan to continue more sophisticated community analysis to assess covariance of species along the Santa Ana River and to investigate the effect of habitat type with wastewater discharge on communities. Future work will include further isotopic analysis to more fully examine how food webs are altered along the length of the Santa Ana River.</p>
+<embed src="posters/Ota_CABWSFSposter.pdf" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" type="application/pdf" />
+<p><br><br></p>
+</div>
+<div id="maura-palacios" class="section level2">
+<h2><strong>12. Maura Palacios</strong></h2>
+<ul>
+<li><strong>Authors: Maura Palacios, Kiumars Edalati, Emily Curd, Mark Renshaw, Naomi Fraga, Andrew Zdon, Robert Wayne, Sophie Parker</strong></li>
+<li><em>Affiliation: HHMI Postdoctoral Scholar, University of California, Los Angeles</em></li>
+</ul>
+<p>Assessing Biodiversity of Mojave Desert Springs using environmental DNA, botanical surveys, geology and ecoregion</p>
+<embed src="posters/Palacios_Mejia_Maura_CABWPoster_Final.pdf" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" type="application/pdf" />
+</div>
+</div>
+
+<!DOCTYPE html>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<div class="foot">
+	<hr> 
+	<p style="text-align: center;">
+	  <span style="color: #808080; display: inline-block; width: 58%;">
+	  &#9781 &nbsp;<i>Website design by <a href="https://ryanpeek.org/">Ryan Peek</i></a> &nbsp;  
+    <a href="https://github.com/Cal-SFS/" class="fa fa-github"></a> &nbsp; &#9781
+    </span>
+  </p>
+</div>
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

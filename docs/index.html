@@ -13,8 +13,8 @@
 
 <title>CABW-Cal SFS</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -246,7 +246,7 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fa fa-home"></span>
+    <span class="fa fa-home fa-1.5x"></span>
      
     
   </a>
@@ -261,7 +261,11 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="agenda.html">2020</a>
+      <a href="2021_agenda.html">2021</a>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="2020_agenda.html">2020</a>
     </li>
   </ul>
 </li>
@@ -269,40 +273,36 @@ $(document).ready(function () {
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     <span class="fa fa-area-chart fa-1x"></span>
      
-    Posters
+    Presentations
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="poster_session.html">2020</a>
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">2021</a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="2021_poster_session.html">Posters</a>
+        </li>
+      </ul>
     </li>
-  </ul>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fa fa-flash"></span>
-     
-    Quick Talks
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="short_talks.html">2020</a>
+    <li class="divider"></li>
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">2020</a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="2020_poster_session.html">Posters</a>
+        </li>
+        <li>
+          <a href="2020_short_talks.html">Quick Talks</a>
+        </li>
+      </ul>
     </li>
   </ul>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="reference.html">
-    <span class="fa fa-question"></span>
-     
-    Slack FAQ
-  </a>
-</li>
-<li class="dropdown">
+        <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     <span class="fa fa-newspaper-o"></span>
      
@@ -312,21 +312,27 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="newsletters.html">
-        <span class="fa fa-sticky-note"></span>
-         
-        Current Newsletter
-      </a>
+      <a href="newsletters.html">Current Newsletter</a>
     </li>
     <li class="divider"></li>
     <li>
-      <a href="https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/cabw_sfs%20newsletter_final.pdf">2016 Newsletter</a>
+      <a href="opportunities.html">CalSFS Fellowships</a>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="https://freshwater-science.org/sites/default/files/medialib/2020_2021_calsfs_cabw_newsletter.pdf">2020 Newsletter</a>
     </li>
     <li>
-      <a href="https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/2017_cabw_sfs_final_newsletter.pdf">2017 Newsletter</a>
+      <a href="https://freshwater-science.org/sites/default/files/medialib/2019_calsfs_cabw_newsletter_final_for_website.pdf">2019 Newsletter</a>
     </li>
     <li>
-      <a href="https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/docs/winter18_19_cabw_calsfs_newsletter.pdf">2018 Newsletter</a>
+      <a href="https://freshwater-science.org/sites/default/files/33_ca_update_newsletter.pdf">2018 Newsletter</a>
+    </li>
+    <li>
+      <a href="https://freshwater-science.org/sites/default/files/cabw_sfs_newsletter_2017.pdf">2017 Newsletter</a>
+    </li>
+    <li>
+      <a href="https://freshwater-science.org/sites/default/files/cabw_sfs_newsletter_v6.pdf">2016 Newsletter</a>
     </li>
     <li class="divider"></li>
     <li>
@@ -370,15 +376,20 @@ $(document).ready(function () {
 <h1><a href="https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/">CABW</a>-<a href="https://freshwater-science.org/my-sfs/chapters/california">Cal SFS</a></h1>
 <p><img src="images/waterboards_logo_high_res.jpg" width="30%" height="15%" /><img src="images/sfs_logo.jpg" width="30%" height="15%" /><img src="images/swamp_fish_logo.gif" width="30%" height="15%" /></p>
 <p><br></p>
-<div id="welcome-to-the-california-aquatic-bioassessment-workgroup" class="section level2">
-<h2><strong>Welcome to the California Aquatic Bioassessment Workgroup!</strong></h2>
-<div id="current-news" class="section level3">
-<h3>Current News</h3>
-<p><em>updated 2021-01-28</em></p>
-<p>Please see the Cal-SFS Fellows call, <strong>due Feb 10, 2021</strong>.</p>
-<div class = "row">
-
-<embed src="images/2021_CalSFS_Fellowship_Application_Flyer.pdf" width="100%" height="600px" style="background-color: #9ecff7; padding:6px; display: inline-block;" type="application/pdf" />
+<h2 align="center" id="heading">
+<strong>Welcome to the <br> California Chapter for the Society for Freshwater Science <br> &amp; California Aquatic Bioassessment Workgroup!</strong>
+</h2>
+<p><br></p>
+<div id="current-news" class="section level2">
+<h2>Current News</h2>
+<p>The CalSFS-CABW meeting will be held virtually on October 12-13, 2021. Visit the <a href="https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/training.html#cabw">CABW page</a> to register for the meeting and submit your abstracts for posters and talks!</p>
+<p>Upcoming Deadlines:</p>
+<ul>
+<li>2021-10-11 - Registration deadline</li>
+<li>2021-09-05 - Late-breaking poster abstract deadline</li>
+<li>2021-07-30 - Talk/Poster abstract deadline</li>
+</ul>
+<p><em>Learn more about CalSFS by visiting the <a href="https://freshwater-science.org/my-sfs/chapters/california">Society for Freshwater Science’s Cal-Chapter page</a>.</em></p>
 </div>
 <p><br></p>
 <div class="blue">
@@ -389,11 +400,8 @@ $(document).ready(function () {
 </ul>
 </div>
 <p><br></p>
-<p><br></p>
-<p><br></p>
 <hr />
-<p><em>site updated: <code>2021-08-19 13:39</code></em></p>
-</div>
+<p><em>site updated: <code>2021-09-22 16:20</code></em></p>
 </div>
 </div>
 
