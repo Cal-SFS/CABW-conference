@@ -24,9 +24,7 @@ library(knitr)
 
 <div class = "blue">
 
-We will be using the [Slack](reference.html) platform to gather questions for the virtual poster presenters and lightning talk presenters. Questions can be submitted all day and long after the meeting is over. The time on the Agenda is reserved for a live Q&A session with the virtual poster presenters and lightning talk presenters, where you can converse and get live feedback and responses immediately from the presenters.
-
-If you are interested in participating in the Q&A, please view the [Slack FAQ Guide](reference.html) for instructions on how to sign up and join (it is free!).
+Stay tuned for more details about CABW-CalSFS 2021!
 
 </div>
 <br>

@@ -16,13 +16,14 @@ navbar:
   type: inverse
   left:
   - text: ""
-    icon: fa-home
+    icon: fa-home fa-1.5x
     href: index.html
   - text: "Agendas"
     icon: fa-list-alt
     menu: 
       - text: "2021"
         href: 2021_agenda.html
+      - text: ---
       - text: "2020"
         href: 2020_agenda.html
   - text: "Presentations"
@@ -32,6 +33,7 @@ navbar:
         menu:
           - text: "Posters"
             href: 2021_poster_session.html
+      - text: ---
       - text: "2020"
         menu:
           - text: "Posters"
@@ -39,14 +41,10 @@ navbar:
           - text: "Quick Talks"
             href: 2020_short_talks.html
   right:
-  - text: Slack FAQ
-    icon: fa-question
-    href: reference.html
   - text: News
     icon: fa-newspaper-o
     menu:
       - text: "Current Newsletter"
-        icon: fa-sticky-note  
         href: newsletters.html
       - text: ---
       - text: "CalSFS Fellowships"

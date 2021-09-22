@@ -28,13 +28,8 @@ df <- poster_tidy
 <br>
 
 <div class = "blue">
-All posters submitted for the 2021 CABW Meeting are found below. 
 
-We will be using the [Slack](reference.html) platform to gather questions for the virtual poster presenters and lightning talk presenters. Questions can be submitted all day and long after the meeting is over. The time on the [Agenda](agenda.html) is reserved for a live Q&A session with the virtual poster presenters and lightning talk presenters, where you can converse and get live feedback and responses immediately from the presenters.
-
-If you are interested in participating in the Q&A, please view the [Slack FAQ Guide](reference.html) for instructions on how to sign up and join (it is free!).
-
-- To Join: [**click this link**](https://join.slack.com/t/californiaaqu-nb73845/shared_invite/zt-h8ddy0hj-2XCZh90D7udsU_9cQPpi8Q) or add the [channel manually](https://slack.com/help/articles/212675257-Join-a-Slack-workspace). Our channel is called: **California Aquatic Bioassessment Workgroup**.
+All posters submitted for the 2021 CABW Meeting are found below.
 
 </div>
 <br>
