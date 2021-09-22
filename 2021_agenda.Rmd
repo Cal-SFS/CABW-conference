@@ -1,0 +1,46 @@
+---
+title: "Agenda"
+output: 
+  bookdown::html_document2:
+    toc: false
+    includes:
+      after_body: assets/foot.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(knitr)
+
+```
+
+<style>
+  .title{
+    display: none;
+  }
+</style>
+
+<br>
+
+
+<div class = "blue">
+
+Stay tuned for more details about CABW-CalSFS 2021!
+
+</div>
+<br>
+
+<div class = "row">
+  
+## **Agenda**
+
+*2021 Agenda Coming Soon!*
+```{r, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
+
+#include_graphics("images/xxxTBDxxx.pdf")
+
+```
+
+</div>
+
+<br>
+

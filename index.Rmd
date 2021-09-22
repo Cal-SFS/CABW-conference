@@ -30,22 +30,23 @@ include_graphics(c("images/waterboards_logo_high_res.jpg","images/sfs_logo.jpg",
 
 <br> 
 
-## **Welcome to the California Aquatic Bioassessment Workgroup!**
+<h2 align="center" id="heading">**Welcome to the <br> California Chapter for the Society for Freshwater Science <br> & California Aquatic Bioassessment Workgroup!**</h2>
+
+<br>
+
+## Current News
+
+The CalSFS-CABW meeting will be held virtually on October 12-13, 2021. Visit the [CABW page](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/training.html#cabw) to register for the meeting and submit your abstracts for posters and talks!
+
+Upcoming Deadlines:
+
+* 2021-10-11 - Registration deadline 
+* 2021-09-05 - Late-breaking poster abstract deadline
+* 2021-07-30 - Talk/Poster abstract deadline 
+
+*Learn more about CalSFS by visiting the [Society for Freshwater Science's Cal-Chapter page](https://freshwater-science.org/my-sfs/chapters/california).*
 
 
-### Current News
-
-*updated 2021-01-28*
-
-Please see the Cal-SFS Fellows call, **due Feb 10, 2021**.
-
-<div class = "row">
-  
-```{r fellows2021, echo=FALSE, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
-
-include_graphics("images/2021_CalSFS_Fellowship_Application_Flyer.pdf")
-
-```
 
 </div>
 
@@ -59,13 +60,6 @@ include_graphics("images/2021_CalSFS_Fellowship_Application_Flyer.pdf")
  - This collaborative group asks that all participants follow the [SFS Code of Conduct](https://freshwater-science.org/about/society-governance/code-of-conduct), whether virtual or in person. For concerns or issues please contact: <a href="mailto:Shuka.Rastegarpour@waterboards.ca.gov">Shuka Rastegarpour</a>
 
 </div>
-
-<br>
-
-
-
-
-<br>
 
 <br>
 

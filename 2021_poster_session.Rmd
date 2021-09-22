@@ -1,0 +1,42 @@
+---
+title: "Poster Session"
+output: 
+  bookdown::html_document2:
+    toc: true
+    toc_float:
+      collapsed: false
+    includes:
+      after_body: assets/foot.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(knitr)
+
+load("assets/poster_info.rda")
+df <- poster_tidy
+
+```
+
+<style>
+  .title{
+    display: none;
+  }
+</style>
+
+
+<br>
+
+<div class = "blue">
+
+All posters submitted for the 2021 CABW Meeting are found below.
+
+</div>
+<br>
+
+# Posters
+
+*2021 Posters Coming Soon!*
+
+<br>
+<br>
