@@ -16,12 +16,9 @@
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
-
 # OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
 .httr-oauth
 *.secrets
-
-
 # knitr and R markdown default cache directories
 *_cache/
 /cache/
@@ -32,4 +29,4 @@ vignettes/*.pdf
 .Renviron
 # macosx pointer
 .DS_Store
-
+/Users/rapeek/Documents/github/CABW-conference/.secrets
