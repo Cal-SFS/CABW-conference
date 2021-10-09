@@ -10,7 +10,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 library(knitr)
 
-load("assets/poster_info.rda")
+load("assets/2020_poster_info.rda")
 df <- poster_tidy
 
 
