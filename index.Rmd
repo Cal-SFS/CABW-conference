@@ -38,9 +38,11 @@ include_graphics(c("images/waterboards_logo_high_res.jpg","images/sfs_logo.jpg",
 
 The CalSFS-CABW meeting will be held virtually on October 12-13, 2021. Visit the [CABW page](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/training.html#cabw) to register for the meeting and submit your abstracts for posters and talks!
 
-Upcoming Deadlines:
+Dates and Deadlines:
 
-* 2021-10-11 - Registration deadline 
+* 2021-10-13 - [CalSFS-CABW Meeting](2021_agenda.html) Day 2
+* 2021-10-12 - [CalSFS-CABW Meeting](2021_agenda.html) Day 1
+* 2021-10-11 - Registration deadline. ([Register here!](https://waterboards.zoom.us/webinar/register/WN_5ln2IwFfTNOi0-vYScP0wQ))
 * 2021-09-05 - Late-breaking poster abstract deadline
 * 2021-07-30 - Talk/Poster abstract deadline 
 
@@ -55,7 +57,7 @@ Upcoming Deadlines:
 <div class = "blue">
 **More Info**:  
 
- - See the [Meeting Agendas tab](agenda.html) for more details on past/upcoming meetings.
+ - See the [Meeting Agendas tab](2021_agenda.html) for more details on past/upcoming meetings.
 
  - This collaborative group asks that all participants follow the [SFS Code of Conduct](https://freshwater-science.org/about/society-governance/code-of-conduct), whether virtual or in person. For concerns or issues please contact: <a href="mailto:Shuka.Rastegarpour@waterboards.ca.gov">Shuka Rastegarpour</a>
 

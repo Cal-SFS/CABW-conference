@@ -36,10 +36,17 @@ If you are interested in participating in the Q&A, please view the [Slack FAQ Gu
 ## **Agenda**
 
 ```{r poster1, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
-
-include_graphics("images/CABW_Meeting_Agenda_2020.pdf")
-
+include_graphics("images/2020_CABW_Meeting_Agenda_2020.pdf")
 ```
+
+<br>
+
+## **Presentation and Speaker Index**
+```{r, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
+include_graphics("images/2020_CABW_abstract_presenters_index.pdf")
+```
+
+
 
 </div>
 

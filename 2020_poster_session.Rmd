@@ -54,7 +54,7 @@ If you are interested in participating in the Q&A, please view the [Slack FAQ Gu
 
 ```{r poster1, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics("posters/SFS_Poster_Arundo_donax_2020.pdf")
+include_graphics("posters/2020_posters/2020_SFS_Poster_Arundo_donax_2020.pdf")
 
 ```
 
@@ -71,7 +71,7 @@ include_graphics("posters/SFS_Poster_Arundo_donax_2020.pdf")
 
 ```{r poster2, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics("posters/DePalma-Dow_Angela_TurningUpTheHeatPoster_July2020.pdf")
+include_graphics("posters/2020_posters/2020_DePalma-Dow_Angela_TurningUpTheHeatPoster_July2020.pdf")
 
 ```
 
@@ -87,7 +87,7 @@ include_graphics("posters/DePalma-Dow_Angela_TurningUpTheHeatPoster_July2020.pdf
 
 ```{r poster3, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics("posters/Framsted_ClearLake_CABW_SFSposter.pdf")
+include_graphics("posters/2020_posters/2020_Framsted_ClearLake_CABW_SFSposter.pdf")
 
 ```
 
@@ -102,7 +102,7 @@ include_graphics("posters/Framsted_ClearLake_CABW_SFSposter.pdf")
 
 ```{r poster4, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics("posters/MDG_CABW_Poster.pdf")
+include_graphics("posters/2020_posters/2020_MDG_CABW_Poster.pdf")
 
 ```
 
@@ -137,7 +137,7 @@ include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Shasta_dam
 
 ```{r poster6, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics("posters/Chen_Buck-Diaz_Tortosa_Kneitel.pdf")
+include_graphics("posters/2020_posters/2020_Chen_Buck-Diaz_Tortosa_Kneitel.pdf")
 
 ```
 
@@ -153,7 +153,7 @@ include_graphics("posters/Chen_Buck-Diaz_Tortosa_Kneitel.pdf")
 
 ```{r poster7, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics("posters/Koeberle_CCAST_poster_SFS-CA_2020.pdf")
+include_graphics("posters/2020_posters/2020_Koeberle_CCAST_poster_SFS-CA_2020.pdf")
 
 ```
 
@@ -168,7 +168,7 @@ include_graphics("posters/Koeberle_CCAST_poster_SFS-CA_2020.pdf")
 
 ```{r poster8, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics("posters/Reservoir_Poster_2020_reduced.pdf")
+include_graphics("posters/2020_posters/2020_Reservoir_Poster_2020_reduced.pdf")
 
 ```
 
@@ -185,7 +185,7 @@ include_graphics("posters/Reservoir_Poster_2020_reduced.pdf")
 
 ```{r poster9, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics("posters/O'Brien_Sean_Biological Sciences.pdf")
+include_graphics("posters/2020_posters/2020_O'Brien_Sean_Biological Sciences.pdf")
 
 ```
 
@@ -201,7 +201,7 @@ include_graphics("posters/O'Brien_Sean_Biological Sciences.pdf")
 
 ```{r poster10, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics("posters/AlyssaObester_CABWPoster.pdf")
+include_graphics("posters/2020_posters/2020_AlyssaObester_CABWPoster.pdf")
 
 ```
 
@@ -218,7 +218,7 @@ include_graphics("posters/AlyssaObester_CABWPoster.pdf")
 
 ```{r poster11, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics("posters/Ota_CABWSFSposter.pdf")
+include_graphics("posters/2020_posters/2020_Ota_CABWSFSposter.pdf")
 
 ```
 
@@ -233,7 +233,7 @@ Assessing Biodiversity of Mojave Desert Springs using environmental DNA, botanic
 
 ```{r poster12, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics("posters/Palacios_Mejia_Maura_CABWPoster_Final.pdf")
+include_graphics("posters/2020_posters/2020_Palacios_Mejia_Maura_CABWPoster_Final.pdf")
 
 ```
 
