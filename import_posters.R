@@ -10,6 +10,7 @@ library(tidyverse)
 library(janitor)
 library(googlesheets4)
 library(here)
+library(lubridate)
 #library(fs)
 
 # Authorize for GSheets ---------------------------------------------------
@@ -20,7 +21,7 @@ options(gargle_oauth_cache = here::here(".secrets"))
 # auth for sheets: this will open a window that allows you to
 # specify how you want this package to access GDrive docs.
 # make sure to check box that says" allow to read all Gsheets"
-gs4_auth(email = "YOUREMAIL@EMAIL", cache = here::here(".secrets"), 
+gs4_auth(email = "youremail@ucdavis.edu", cache = here::here(".secrets"), 
          scopes = "https://www.googleapis.com/auth/spreadsheets.readonly")
 
 
@@ -31,7 +32,7 @@ gs4_auth(email = "YOUREMAIL@EMAIL", cache = here::here(".secrets"),
 poster_gdrive <- gs4_get("https://docs.google.com/spreadsheets/d/1oOA0VDH2PYceL8db774Os4yBAcpJbA7HbGPchV44WNQ/edit?usp=sharing")
 
 # if you want to open sheet in browser:
-gs4_browse(poster_gdrive)
+#gs4_browse(poster_gdrive)
 
 # get list of tabs in sheet:
 (sheet_names <- googlesheets4::sheet_names(poster_gdrive$spreadsheet_id)) 
@@ -41,41 +42,28 @@ posters <- read_sheet(poster_gdrive, sheet = 1) %>% janitor::clean_names()
 
 # Clean -------------------------------------------------------------------
 
-poster <- select(name='Submitter Name', title='Presentation Title', 
-                 author='Presenting Author(s)', 
-                 co_authors='Co Author(s)',
-                 affiliation='Affiliation(s)',
-                 abstract='Abstract (200 words or fewer)') %>% 
-  mutate(year = 2021)
-
-
-# Import Data Manually ----------------------------------------------------
-
-
-poster <- poster %>% select(name='Submitter Name', title='Presentation Title', 
-                            author='Presenting Author(s)', 
-                            co_authors='Co Author(s)',
-                            affiliation='Affiliation(s)',
-                            abstract='Abstract (200 words or fewer)'
-                            )
+posters <- posters %>% 
+  filter(grepl("Poster", presentation_preference)) %>% 
+  mutate(datetime = ymd_hms(as.character(timestamp)),
+         year = year(datetime)) %>% 
+  select(name='submitter_name', 
+         title='presentation_title', 
+         author='presenting_author_s', 
+         co_authors='co_author_s',
+         affiliation='affiliation_s',
+         abstract='abstract_200_words_or_fewer',
+         year) 
+  
 
 ## tidy a bit
-poster_tidy <- poster %>% 
+poster_tidy <- posters %>% 
   separate(author, c("first", "last"), 
-           sep = " ", extra="merge", remove = FALSE) %>% 
-  # fix d green
-  mutate(first=case_when(
-    grepl("D. Green", last) ~ "Matthew D.",
-    TRUE ~ first),
-    last = case_when(
-      grepl("D. Green", last) ~ "Green",
-      TRUE ~ last)
-  )
+           sep = " ", extra="merge", remove = FALSE)
 
 ## arrange
 poster_tidy <- poster_tidy %>% arrange(last, first)
 
 # save as .RDA
-#save(poster_tidy, file = "assets/poster_info.rda")
-rio::export(list(poster_tidy=poster_tidy), file="assets/poster_info.rda")
+save(poster_tidy, file = "assets/2021_poster_info.rda")
+#rio::export(list(poster_tidy=poster_tidy), file="assets/poster_info.rda")
 
