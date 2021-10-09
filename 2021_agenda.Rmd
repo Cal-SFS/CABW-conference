@@ -10,7 +10,6 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 library(knitr)
-
 ```
 
 <style>
@@ -21,24 +20,49 @@ library(knitr)
 
 <br>
 
-
 <div class = "blue">
+Hello to all registrants of the 2021 CABW and Cal-SFS Meeting!
+ 
+The **Final Agenda** and the **Presentation and Speaker Index** are both available below. 
+ 
+This past week, you should have all received email reminders from *“SWRCB <no-reply@zoom.us>”* with your Zoom Webinar access link. The [Bioassessment Program CABW Webpage](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioassessment/training.html#cabw) also contains the link to [Register for the Zoom Webinar](https://waterboards.zoom.us/webinar/register/WN_5ln2IwFfTNOi0-vYScP0wQ) for those still interested in registering. By registering, you will be able to participate in Q&A during speaker presentations. If you are not registered, you can access the webinar via the live stream on the [California Water Quality Monitoring Council YouTube page](https://www.youtube.com/channel/UCfq3UT8xzT9In0RUWSMOrxQ). You cannot participate in Q&A if you are watching via the live stream. This meeting will be recorded and posted on the Bioassessment Program CABW Webpage for future viewing.
+ 
+Zoom Webinar protocols for attendees: 
 
-Stay tuned for more details about CABW-CalSFS 2021!
+- Chat is disabled
+
+- Showing your video is disabled
+
+- Questions can be submitted via the Zoom Webinar Q&A chat feature
+
+- For assistance on how to use Zoom Webinar and the Q&A chat feature, check out the [Zoom - Help Center](https://support.zoom.us/hc/en-us/articles/115004954946-Joining-and-participating-in-a-webinar-attendee-#h_5e983a7a-c202-4a56-bcc9-b4fb033402ac) for Joining and Participating in a Webinar.
+
+- General questions/concerns please contact [SWAMP](swamp@waterboards.ca.gov).
+
+ 
+Thank you all for registering and supporting this event! Your attendance and participation, especially in these recent years, has been overwhelmingly appreciated.
 
 </div>
+
 <br>
 
 <div class = "row">
   
 ## **Agenda**
 
-*2021 Agenda Coming Soon!*
 ```{r, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
-
-#include_graphics("images/xxxTBDxxx.pdf")
-
+include_graphics("images/2021-california-aquatic-bioassessment-workgroup-meeting-agenda.pdf")
 ```
+
+<br>
+
+## **Presentation and Speaker Index**
+
+```{r, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
+include_graphics("images/2021_cabw_presentation-and-speaker-index.pdf")
+```
+
+
 
 </div>
 

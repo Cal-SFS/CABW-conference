@@ -29,14 +29,163 @@ df <- poster_tidy
 
 <div class = "blue">
 
-All posters submitted for the 2021 CABW Meeting are found below.
+**All posters submitted for the 2021 virtual CABW Meeting are found below.**
+
+The “live” virtual poster session will be held in a [Zoom Rooms video conference](https://csumb.zoom.us/j/84531113561?pwd=ZVlqQS9UUWJsSHZWUWZxbGQ1VFVZQT09#success). Zoom Rooms is a platform that will allow you have a discussion with the poster author in a single video conference room, just like how you would interact in-person. Posters can be presented in different rooms giving the audience and the presenters a chance to interact, ask questions, follow discussion, both in verbal, audio formats and through the chat feature. 
+
+The time on the agenda for the poster session is for live Q&A with the poster presenters and co-authors. During this time, the posters will be judged by the Cal-SFS student poster judging committee. During this live session, audience and presenters can convers and get live feedback (verbal or through chat) from the audience and immediate responses from presenters. 
+
+If you are interested, make sure that you enter the [Zoom Rooms video conference meeting](https://csumb.zoom.us/j/84531113561?pwd=ZVlqQS9UUWJsSHZWUWZxbGQ1VFVZQT09#success) during this time of the session. Once you enter the video conference meeting, the main room will have a list of all of the poster titles with their corresponding breakout rooms that each poster is in. You can select which room you want to enter by clicking on the “Breakout Rooms” button at the bottom of the zoom screen (if the Breakout Room button is not visible, check under “More”). Then click on “Join” next to the room you want to enter and select “yes” when prompted. When you are done visiting a poster and talking to the author, you can select “Leave Room” button at the bottom right which will take you back to the main room. You can then enter other rooms. If you have problems or questions, there will be a facilitator in the main room that will help. Once you are done, you can leave the Zoom Rooms video conference meeting by clicking on “Leave”.
+
+**The goal of hosting a poster session** is to encourage student attendance and participation in CABW & Cal-SFS, as students are the future members, researchers, and managers of freshwater in California. It is highly encouraged to attend this unique virtual poster session experience to interact and engage with the poster authors!
+
 
 </div>
 <br>
 
 # Posters
 
-*2021 Posters Coming Soon!*
+<br><br>
 
-<br>
-<br>
+<div class = "row">
+
+## **01. `r glue::glue("{df$author[1]}")`**
+
+ - **Authors: `r glue::glue("{df$author[1]}, {df$co_authors[1]}")`**
+ - *Affiliation: `r glue::glue("{df$affiliation[1]}")`*
+
+`r glue::glue("{df$abstract[1]}")`
+
+```{r poster 1, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
+# 1. Wichman, G. The influence of salinity on leaf-litter breakdown rates in tidal streams
+include_graphics("posters/2021_posters/2021_1_Wichman_Gretchen_24Sept.pdf")
+```
+
+</div>
+
+<br><br>
+
+## **02. `r glue::glue("{df$author[2]}")`**
+
+ - **Authors: `r glue::glue("{df$author[2]}, {df$co_authors[2]}")`**
+ - *Affiliation: `r glue::glue("{df$affiliation[2]}")`*
+
+`r glue::glue("{df$abstract[2]}")`
+
+```{r poster 2, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
+# 2. Shaer, A. Indicator species composition depends on river salinity
+include_graphics("posters/2021_posters/2021_2_Schaer_Alyssa_CALSFS_poster_final.pdf")
+```
+
+<br><br>
+
+## **03. `r glue::glue("{df$author[3]}")`**
+
+ - **Authors: `r glue::glue("{df$author[3]}, {df$co_authors[3]}")`**
+ - *Affiliation: `r glue::glue("{df$affiliation[3]}")`*
+
+`r glue::glue("{df$abstract[3]}")`
+
+
+```{r poster3, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
+# 3. Melendy, S. Can Environmental DNA Reveal Fish Abundance? Modeling Salmonid eDNA Fate at the Reach Scale
+include_graphics("posters/2021_posters/2021_3_Melendy_Shawn_CalSFSposter.pdf")
+```
+
+<br><br>
+
+## **04. `r glue::glue("{df$author[4]}")`**
+
+ - **Authors: `r glue::glue("{df$author[4]}, {df$co_authors[4]}")`**
+ - *Affiliation: `r glue::glue("{df$affiliation[4]}")`*
+
+`r glue::glue("{df$abstract[4]}")`
+
+```{r poster 4, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
+# 4. Clark, M. Intersex condition of largemouth bass (Micropterus salmoides) in an effluent dominated river
+include_graphics("posters/2021_posters/2021_4_Clark_MorganA_CalSFSPoster.pdf")
+```
+
+<br><br>
+
+## **05. `r glue::glue("{df$author[5]}")`**
+
+ - **Authors: `r glue::glue("{df$author[5]}, {df$co_authors[5]}")`**
+ - *Affiliation: `r glue::glue("{df$affiliation[5]}")`*
+
+`r glue::glue("{df$abstract[5]}")`
+
+```{r poster 5, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
+# 5. Ota, W. The Diet of Largemouth Bass in the Urban Santa Ana River
+include_graphics("posters/2021_posters/2021_5_Ota_Will_SFSCABWPoster.pdf")
+```
+
+<br><br>
+
+## **06. `r glue::glue("{df$author[6]}")`**
+
+ - **Authors: `r glue::glue("{df$author[6]}, {df$co_authors[6]}")`**
+ - *Affiliation: `r glue::glue("{df$affiliation[6]}")`*
+
+`r glue::glue("{df$abstract[6]}")`
+
+```{r poster6, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
+# 6. Cowell, A. Extended low flow periods alter Sierra Nevada macroinvertebrate food webs
+include_graphics("posters/2021_posters/2021_6_Cowell_Ashley_CalSFS_Sierra Nevada macroinvertebrate food webs.pdf")
+```
+
+<br><br>
+
+## **07. `r glue::glue("{df$author[7]}")`**
+
+ - **Authors: `r glue::glue("{df$author[7]}, {df$co_authors[7]}")`**
+ - *Affiliation: `r glue::glue("{df$affiliation[7]}")`*
+
+`r glue::glue("{df$abstract[7]}")`
+
+
+```{r poster7, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
+# 7. von Mayrhauser, M. From Stoneflies to Spiders: Integrating Aquatic and Terrestrial Invertebrate Monitoring to Understand the Effects of Effluent on Stream Ecosystems in Southern California
+include_graphics("posters/2021_posters/2021_7_vonMayrhauser_Cal-SFSposter.pdf")
+```
+
+<br><br>
+
+## **08. `r glue::glue("{df$author[8]}")`**
+
+ - **Authors: `r glue::glue("{df$author[8]}, {df$co_authors[8]}")`**
+ - *Affiliation: `r glue::glue("{df$affiliation[8]}")`*
+
+`r glue::glue("{df$abstract[8]}")`
+
+```{r poster8, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
+#8. Debasitis, E. Pre - Human Water Quality Estimates in California
+include_graphics("posters/2021_posters/2021_8_Debasitis_Emma_Cal_SFS_Poster_Fall_2021_Final.pdf")
+```
+
+<br><br>
+
+## **09. `r glue::glue("{df$author[9]}")`**
+
+ - **Authors: `r glue::glue("{df$author[9]}, {df$co_authors[9]}")`**
+ - *Affiliation: `r glue::glue("{df$affiliation[9]}")`*
+
+`r glue::glue("{df$abstract[9]}")`
+
+
+```{r poster9, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
+#9. Curti, J. State of the ART: Using artificial refuge traps to control invasive crayfish in southern California streams
+
+include_graphics("posters/2021_posters/2021_9_Curti_Fergus_DePalmaDow_2021_CalSFS.pdf")
+
+```
+
+<br><br>
+
+
+
+
+
+
+
+
