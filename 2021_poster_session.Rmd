@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = FALSE)
 library(knitr)
 
 load("assets/2021_poster_info.rda")
-df <- poster_tidy
+df21 <- poster_tidy
 
 ```
 
@@ -49,12 +49,12 @@ If you are interested, make sure that you enter the [Zoom Rooms video conference
 
 <div class = "row">
 
-## **01. `r glue::glue("{df$author[1]}")`**
+## **01. `r glue::glue("{df21$author[1]}")`**
 
- - **Authors: `r glue::glue("{df$author[1]}, {df$co_authors[1]}")`**
- - *Affiliation: `r glue::glue("{df$affiliation[1]}")`*
+ - **Authors: `r glue::glue("{df21$author[1]}, {df21$co_authors[1]}")`**
+ - *Affiliation: `r glue::glue("{df21$affiliation[1]}")`*
 
-`r glue::glue("{df$abstract[1]}")`
+`r glue::glue("{df21$abstract[1]}")`
 
 ```{r poster 1, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 # 1. Wichman, G. The influence of salinity on leaf-litter breakdown rates in tidal streams
@@ -65,12 +65,12 @@ include_graphics("posters/2021_posters/2021_1_Wichman_Gretchen_24Sept.pdf")
 
 <br><br>
 
-## **02. `r glue::glue("{df$author[2]}")`**
+## **02. `r glue::glue("{df21$author[2]}")`**
 
- - **Authors: `r glue::glue("{df$author[2]}, {df$co_authors[2]}")`**
- - *Affiliation: `r glue::glue("{df$affiliation[2]}")`*
+ - **Authors: `r glue::glue("{df21$author[2]}, {df21$co_authors[2]}")`**
+ - *Affiliation: `r glue::glue("{df21$affiliation[2]}")`*
 
-`r glue::glue("{df$abstract[2]}")`
+`r glue::glue("{df21$abstract[2]}")`
 
 ```{r poster 2, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 # 2. Shaer, A. Indicator species composition depends on river salinity
@@ -79,12 +79,12 @@ include_graphics("posters/2021_posters/2021_2_Schaer_Alyssa_CALSFS_poster_final.
 
 <br><br>
 
-## **03. `r glue::glue("{df$author[3]}")`**
+## **03. `r glue::glue("{df21$author[3]}")`**
 
- - **Authors: `r glue::glue("{df$author[3]}, {df$co_authors[3]}")`**
- - *Affiliation: `r glue::glue("{df$affiliation[3]}")`*
+ - **Authors: `r glue::glue("{df21$author[3]}, {df21$co_authors[3]}")`**
+ - *Affiliation: `r glue::glue("{df21$affiliation[3]}")`*
 
-`r glue::glue("{df$abstract[3]}")`
+`r glue::glue("{df21$abstract[3]}")`
 
 
 ```{r poster3, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
@@ -94,12 +94,12 @@ include_graphics("posters/2021_posters/2021_3_Melendy_Shawn_CalSFSposter.pdf")
 
 <br><br>
 
-## **04. `r glue::glue("{df$author[4]}")`**
+## **04. `r glue::glue("{df21$author[4]}")`**
 
- - **Authors: `r glue::glue("{df$author[4]}, {df$co_authors[4]}")`**
- - *Affiliation: `r glue::glue("{df$affiliation[4]}")`*
+ - **Authors: `r glue::glue("{df21$author[4]}, {df21$co_authors[4]}")`**
+ - *Affiliation: `r glue::glue("{df21$affiliation[4]}")`*
 
-`r glue::glue("{df$abstract[4]}")`
+`r glue::glue("{df21$abstract[4]}")`
 
 ```{r poster 4, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 # 4. Clark, M. Intersex condition of largemouth bass (Micropterus salmoides) in an effluent dominated river
@@ -108,12 +108,12 @@ include_graphics("posters/2021_posters/2021_4_Clark_MorganA_CalSFSPoster.pdf")
 
 <br><br>
 
-## **05. `r glue::glue("{df$author[5]}")`**
+## **05. `r glue::glue("{df21$author[5]}")`**
 
- - **Authors: `r glue::glue("{df$author[5]}, {df$co_authors[5]}")`**
- - *Affiliation: `r glue::glue("{df$affiliation[5]}")`*
+ - **Authors: `r glue::glue("{df21$author[5]}, {df21$co_authors[5]}")`**
+ - *Affiliation: `r glue::glue("{df21$affiliation[5]}")`*
 
-`r glue::glue("{df$abstract[5]}")`
+`r glue::glue("{df21$abstract[5]}")`
 
 ```{r poster 5, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 # 5. Ota, W. The Diet of Largemouth Bass in the Urban Santa Ana River
@@ -122,12 +122,12 @@ include_graphics("posters/2021_posters/2021_5_Ota_Will_SFSCABWPoster.pdf")
 
 <br><br>
 
-## **06. `r glue::glue("{df$author[6]}")`**
+## **06. `r glue::glue("{df21$author[6]}")`**
 
- - **Authors: `r glue::glue("{df$author[6]}, {df$co_authors[6]}")`**
- - *Affiliation: `r glue::glue("{df$affiliation[6]}")`*
+ - **Authors: `r glue::glue("{df21$author[6]}, {df21$co_authors[6]}")`**
+ - *Affiliation: `r glue::glue("{df21$affiliation[6]}")`*
 
-`r glue::glue("{df$abstract[6]}")`
+`r glue::glue("{df21$abstract[6]}")`
 
 ```{r poster6, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 # 6. Cowell, A. Extended low flow periods alter Sierra Nevada macroinvertebrate food webs
@@ -136,12 +136,12 @@ include_graphics("posters/2021_posters/2021_6_Cowell_Ashley_CalSFS_Sierra Nevada
 
 <br><br>
 
-## **07. `r glue::glue("{df$author[7]}")`**
+## **07. `r glue::glue("{df21$author[7]}")`**
 
- - **Authors: `r glue::glue("{df$author[7]}, {df$co_authors[7]}")`**
- - *Affiliation: `r glue::glue("{df$affiliation[7]}")`*
+ - **Authors: `r glue::glue("{df21$author[7]}, {df21$co_authors[7]}")`**
+ - *Affiliation: `r glue::glue("{df21$affiliation[7]}")`*
 
-`r glue::glue("{df$abstract[7]}")`
+`r glue::glue("{df21$abstract[7]}")`
 
 
 ```{r poster7, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
@@ -151,12 +151,12 @@ include_graphics("posters/2021_posters/2021_7_vonMayrhauser_Cal-SFSposter.pdf")
 
 <br><br>
 
-## **08. `r glue::glue("{df$author[8]}")`**
+## **08. `r glue::glue("{df21$author[8]}")`**
 
- - **Authors: `r glue::glue("{df$author[8]}, {df$co_authors[8]}")`**
- - *Affiliation: `r glue::glue("{df$affiliation[8]}")`*
+ - **Authors: `r glue::glue("{df21$author[8]}, {df21$co_authors[8]}")`**
+ - *Affiliation: `r glue::glue("{df21$affiliation[8]}")`*
 
-`r glue::glue("{df$abstract[8]}")`
+`r glue::glue("{df21$abstract[8]}")`
 
 ```{r poster8, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 #8. Debasitis, E. Pre - Human Water Quality Estimates in California
@@ -165,12 +165,12 @@ include_graphics("posters/2021_posters/2021_8_Debasitis_Emma_Cal_SFS_Poster_Fall
 
 <br><br>
 
-## **09. `r glue::glue("{df$author[9]}")`**
+## **09. `r glue::glue("{df21$author[9]}")`**
 
- - **Authors: `r glue::glue("{df$author[9]}, {df$co_authors[9]}")`**
- - *Affiliation: `r glue::glue("{df$affiliation[9]}")`*
+ - **Authors: `r glue::glue("{df21$author[9]}, {df21$co_authors[9]}")`**
+ - *Affiliation: `r glue::glue("{df21$affiliation[9]}")`*
 
-`r glue::glue("{df$abstract[9]}")`
+`r glue::glue("{df21$abstract[9]}")`
 
 
 ```{r poster9, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}

@@ -21,7 +21,7 @@ options(gargle_oauth_cache = here::here(".secrets"))
 # auth for sheets: this will open a window that allows you to
 # specify how you want this package to access GDrive docs.
 # make sure to check box that says" allow to read all Gsheets"
-gs4_auth(email = "youremail@ucdavis.edu", cache = here::here(".secrets"), 
+gs4_auth(email = "rapeek@ucdavis.edu", cache = here::here(".secrets"), 
          scopes = "https://www.googleapis.com/auth/spreadsheets.readonly")
 
 
@@ -52,7 +52,9 @@ posters <- posters %>%
          co_authors='co_author_s',
          affiliation='affiliation_s',
          abstract='abstract_200_words_or_fewer',
-         year) 
+         year,
+         datetime,
+         poster_order) 
   
 
 ## tidy a bit
@@ -61,7 +63,7 @@ poster_tidy <- posters %>%
            sep = " ", extra="merge", remove = FALSE)
 
 ## arrange
-poster_tidy <- poster_tidy %>% arrange(last, first)
+poster_tidy <- poster_tidy %>% arrange(datetime)
 
 # save as .RDA
 save(poster_tidy, file = "assets/2021_poster_info.rda")
