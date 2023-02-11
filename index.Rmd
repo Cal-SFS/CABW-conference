@@ -38,7 +38,7 @@ include_graphics(c("images/waterboards_logo_high_res.jpg","images/sfs_logo.jpg",
 
 * The 2022-2023 CalSFS Newsletter is out! Check it out on our [News page](newsletters.html). 
 
-* 2023-02-15 - Deadline for [CalSFS STduent Travel Grant Applications](opportunities.html)
+* __2023-02-15 Deadline__ for [CalSFS Student Travel Grant Applications](opportunities.html)
 
 * The next CalSFS-CABW meeting will be held in October 2023. 
 

@@ -25,9 +25,9 @@ library(knitr)
   
 ## **2022-2023 Newsletter**
 
-```{r news20201, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
+```{r news2023, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
 
-include_graphics("images/2022-23_newsletter_calsfs_cabw_jan_2023.pdf")
+include_graphics("https://freshwater-science.org/sites/default/files/medialib/newsletter_calsfs_cabw_jan_2023.pdf")
 
 ```
 
