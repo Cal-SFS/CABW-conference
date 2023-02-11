@@ -1,0 +1,36 @@
+---
+title: "Agenda"
+output: 
+  bookdown::html_document2:
+    toc: false
+    includes:
+      after_body: assets/foot.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(knitr)
+
+```
+
+<style>
+  .title{
+    display: none;
+  }
+</style>
+
+
+<br>
+
+
+
+<div class = "blue">
+
+Coming in Fall 2023. 
+
+</div>
+
+
+
+
+

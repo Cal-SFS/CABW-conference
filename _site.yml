@@ -21,6 +21,12 @@ navbar:
   - text: "Agendas"
     icon: fa-list-alt
     menu: 
+      - text: "2023"
+        href: 2023_agenda.html
+      - text: ---
+      - text: "2022"
+        href: 2022_agenda.html
+      - text: ---
       - text: "2021"
         href: 2021_agenda.html
       - text: ---
@@ -47,11 +53,17 @@ navbar:
       - text: "Current Newsletter"
         href: newsletters.html
       - text: ---
-      - text: "CalSFS Fellowships"
+      - text: "CalSFS Fellowships & Travel Grants"
         href: opportunities.html
       - text: ---
-      - text: 2020 Newsletter
+      - text: 2023 Newsletter
+        href: https://freshwater-science.org/sites/default/files/medialib/newsletter_calsfs_cabw_jan_2023.pdf
+      - text: 2022 Newsletter
+        href: https://freshwater-science.org/sites/default/files/medialib/newsletter_2021_2022_jan_25_2021_final.pdf
+      - text: 2021 Newsletter
         href: https://freshwater-science.org/sites/default/files/medialib/2020_2021_calsfs_cabw_newsletter.pdf
+      - text: 2020 Newsletter
+        href: https://freshwater-science.org/my-sfs/chapters/california
       - text: 2019 Newsletter
         href: https://freshwater-science.org/sites/default/files/medialib/2019_calsfs_cabw_newsletter_final_for_website.pdf
       - text: 2018 Newsletter
