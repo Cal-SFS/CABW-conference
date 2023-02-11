@@ -23,16 +23,17 @@ library(knitr)
 
 <div class = "row">
   
-*No open fellowship opportunities at this time. Check back soon!*  
 <br>
 
-### **2021 CalSFS Fellowship Application**
+### **CalSFS Student Travel Grant Application**
 
-```{r news20201, out.height='600px', out.width='100%', dpi=300, out.extra='style="background-color: #9ecff7; padding:6px; display: inline-block;"'}
+View the travel grant application [here](https://freshwater-science.org/sites/default/files/medialib/newsletter_calsfs_cabw_jan_2023.pdf)
 
-include_graphics("images/2021_CalSFS_Fellowship_Application_Flyer.pdf")
+<br>
 
-```
+### **CalSFS Fellowship Application**
+
+View the fellowship application [here](https://freshwater-science.org/my-sfs/chapters/california)
 
 </div>
 
